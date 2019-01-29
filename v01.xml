@@ -2,6 +2,7 @@
   <version>2</version>
   <inputFiles>
     <string>D:\omat\pinball\editor\id4\id4.txt.gz</string>
+    <string>D:\omat\pinball\editor\id4\id4_attract.txt.gz</string>
   </inputFiles>
   <palettes/>
   <paletteMap>
@@ -1825,12 +1826,194 @@
         <type>NORMAL</type>
       </palette>
     </entry>
+    <entry>
+      <int>20</int>
+      <palette>
+        <name>super jackpot</name>
+        <numberOfColors>16</numberOfColors>
+        <index>20</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>240</red>
+            <green>23</green>
+            <blue>23</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>19</red>
+            <green>30</green>
+            <blue>87</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>249</red>
+            <green>249</green>
+            <blue>249</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>18</red>
+            <green>209</green>
+            <blue>114</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>120</red>
+            <green>72</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>187</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>21</int>
+      <palette>
+        <name>trendmasters</name>
+        <numberOfColors>16</numberOfColors>
+        <index>21</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>59</red>
+            <green>148</green>
+            <blue>187</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>59</red>
+            <green>148</green>
+            <blue>187</blue>
+          </rgb>
+          <rgb>
+            <red>14</red>
+            <green>48</green>
+            <blue>72</blue>
+          </rgb>
+          <rgb>
+            <red>249</red>
+            <green>249</green>
+            <blue>249</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>18</red>
+            <green>209</green>
+            <blue>114</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>62</green>
+            <blue>107</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
   </paletteMap>
   <recordingNameMap/>
   <palMappings>
     <palMapping>
       <palIndex>11</palIndex>
-      <durationInMillis>337676</durationInMillis>
+      <durationInMillis>206239</durationInMillis>
       <durationInFrames>8441</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT Sega logo</name>
@@ -1845,7 +2028,7 @@
     </palMapping>
     <palMapping>
       <palIndex>16</palIndex>
-      <durationInMillis>195967</durationInMillis>
+      <durationInMillis>275927</durationInMillis>
       <durationInFrames>4899</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT best value</name>
@@ -1860,7 +2043,7 @@
     </palMapping>
     <palMapping>
       <palIndex>9</palIndex>
-      <durationInMillis>1620110</durationInMillis>
+      <durationInMillis>260356</durationInMillis>
       <durationInFrames>40502</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT credits</name>
@@ -1875,7 +2058,7 @@
     </palMapping>
     <palMapping>
       <palIndex>15</palIndex>
-      <durationInMillis>77346</durationInMillis>
+      <durationInMillis>60</durationInMillis>
       <durationInFrames>1933</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT enjoy this game</name>
@@ -1890,7 +2073,7 @@
     </palMapping>
     <palMapping>
       <palIndex>12</palIndex>
-      <durationInMillis>304160</durationInMillis>
+      <durationInMillis>384120</durationInMillis>
       <durationInFrames>7604</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT id4 logo</name>
@@ -1905,7 +2088,7 @@
     </palMapping>
     <palMapping>
       <palIndex>14</palIndex>
-      <durationInMillis>52</durationInMillis>
+      <durationInMillis>103108</durationInMillis>
       <durationInFrames>1</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT just say no</name>
@@ -1920,7 +2103,7 @@
     </palMapping>
     <palMapping>
       <palIndex>12</palIndex>
-      <durationInMillis>183011</durationInMillis>
+      <durationInMillis>262971</durationInMillis>
       <durationInFrames>4575</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT push start</name>
@@ -1935,7 +2118,7 @@
     </palMapping>
     <palMapping>
       <palIndex>9</palIndex>
-      <durationInMillis>180394</durationInMillis>
+      <durationInMillis>180402</durationInMillis>
       <durationInFrames>4509</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT replay at</name>
@@ -1950,7 +2133,7 @@
     </palMapping>
     <palMapping>
       <palIndex>18</palIndex>
-      <durationInMillis>1622725</durationInMillis>
+      <durationInMillis>1898349</durationInMillis>
       <durationInFrames>40568</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT score</name>
@@ -1965,7 +2148,7 @@
     </palMapping>
     <palMapping>
       <palIndex>19</palIndex>
-      <durationInMillis>193354</durationInMillis>
+      <durationInMillis>273314</durationInMillis>
       <durationInFrames>4833</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT start</name>
@@ -1980,7 +2163,7 @@
     </palMapping>
     <palMapping>
       <palIndex>17</palIndex>
-      <durationInMillis>391793</durationInMillis>
+      <durationInMillis>670032</durationInMillis>
       <durationInFrames>9794</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT thanks to</name>
@@ -1990,6 +2173,36 @@
       <frameSeqName>ATT thanks to</frameSeqName>
       <crc32>BNKM3A==</crc32>
       <switchMode>REPLACE</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>20</palIndex>
+      <durationInMillis>417636</durationInMillis>
+      <durationInFrames>0</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>KeyFrame super jackpot</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4_attract</animationName>
+      <frameIndex>855</frameIndex>
+      <frameSeqName>ATT super jackpot</frameSeqName>
+      <crc32>kXv9AA==</crc32>
+      <switchMode>ADD</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>21</palIndex>
+      <durationInMillis>183019</durationInMillis>
+      <durationInFrames>0</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>KeyFrame ATT trendmasters</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4_attract</animationName>
+      <frameIndex>971</frameIndex>
+      <frameSeqName>ATT trendmasters</frameSeqName>
+      <crc32>0C9kgQ==</crc32>
+      <switchMode>ADD</switchMode>
       <withMask>false</withMask>
       <maskNumber>0</maskNumber>
     </palMapping>
@@ -2046,6 +2259,19 @@
         <bookmark>
           <name>ATT thanks to</name>
           <pos>364</pos>
+        </bookmark>
+      </sorted-set>
+    </entry>
+    <entry>
+      <string>id4_attract</string>
+      <sorted-set>
+        <bookmark>
+          <name>ATT super jackpot</name>
+          <pos>855</pos>
+        </bookmark>
+        <bookmark>
+          <name>ATT trendmasters</name>
+          <pos>971</pos>
         </bookmark>
       </sorted-set>
     </entry>
