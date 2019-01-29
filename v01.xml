@@ -1,0 +1,2381 @@
+<project>
+  <version>2</version>
+  <inputFiles>
+    <string>D:\omat\pinball\editor\id4\id4.txt.gz</string>
+  </inputFiles>
+  <palettes/>
+  <paletteMap>
+    <entry>
+      <int>0</int>
+      <palette>
+        <name>pal0</name>
+        <numberOfColors>16</numberOfColors>
+        <index>0</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>0</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>51</red>
+            <green>51</green>
+            <blue>51</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>DEFAULT</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>1</int>
+      <palette>
+        <name>pal1</name>
+        <numberOfColors>16</numberOfColors>
+        <index>1</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>17</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>34</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>51</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>68</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>85</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>102</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>153</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>170</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>187</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>204</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>221</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>238</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>2</int>
+      <palette>
+        <name>pal2</name>
+        <numberOfColors>16</numberOfColors>
+        <index>2</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>17</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>34</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>51</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>68</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>85</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>102</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>136</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>153</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>170</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>187</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>204</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>221</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>238</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>3</int>
+      <palette>
+        <name>pal3</name>
+        <numberOfColors>16</numberOfColors>
+        <index>3</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>17</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>34</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>51</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>68</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>85</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>102</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>136</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>153</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>170</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>187</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>204</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>221</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>238</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>4</int>
+      <palette>
+        <name>pal4</name>
+        <numberOfColors>16</numberOfColors>
+        <index>4</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>17</red>
+            <green>0</green>
+            <blue>17</blue>
+          </rgb>
+          <rgb>
+            <red>34</red>
+            <green>0</green>
+            <blue>34</blue>
+          </rgb>
+          <rgb>
+            <red>51</red>
+            <green>0</green>
+            <blue>51</blue>
+          </rgb>
+          <rgb>
+            <red>68</red>
+            <green>0</green>
+            <blue>68</blue>
+          </rgb>
+          <rgb>
+            <red>85</red>
+            <green>0</green>
+            <blue>85</blue>
+          </rgb>
+          <rgb>
+            <red>102</red>
+            <green>0</green>
+            <blue>102</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>136</blue>
+          </rgb>
+          <rgb>
+            <red>153</red>
+            <green>0</green>
+            <blue>153</blue>
+          </rgb>
+          <rgb>
+            <red>170</red>
+            <green>0</green>
+            <blue>170</blue>
+          </rgb>
+          <rgb>
+            <red>187</red>
+            <green>0</green>
+            <blue>187</blue>
+          </rgb>
+          <rgb>
+            <red>204</red>
+            <green>0</green>
+            <blue>204</blue>
+          </rgb>
+          <rgb>
+            <red>221</red>
+            <green>0</green>
+            <blue>221</blue>
+          </rgb>
+          <rgb>
+            <red>238</red>
+            <green>0</green>
+            <blue>238</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>0</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>5</int>
+      <palette>
+        <name>pal5</name>
+        <numberOfColors>16</numberOfColors>
+        <index>5</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>17</green>
+            <blue>17</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>34</green>
+            <blue>34</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>51</green>
+            <blue>51</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>68</green>
+            <blue>68</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>85</green>
+            <blue>85</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>102</green>
+            <blue>102</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>136</green>
+            <blue>136</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>153</green>
+            <blue>153</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>170</green>
+            <blue>170</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>187</green>
+            <blue>187</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>204</green>
+            <blue>204</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>221</green>
+            <blue>221</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>238</green>
+            <blue>238</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>6</int>
+      <palette>
+        <name>pal6</name>
+        <numberOfColors>16</numberOfColors>
+        <index>6</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>17</red>
+            <green>17</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>34</red>
+            <green>34</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>51</red>
+            <green>51</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>68</red>
+            <green>68</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>85</red>
+            <green>85</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>102</red>
+            <green>102</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>136</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>153</red>
+            <green>153</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>170</red>
+            <green>170</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>187</red>
+            <green>187</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>204</red>
+            <green>204</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>221</red>
+            <green>221</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>238</red>
+            <green>238</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>7</int>
+      <palette>
+        <name>pal7</name>
+        <numberOfColors>16</numberOfColors>
+        <index>7</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>17</red>
+            <green>17</green>
+            <blue>17</blue>
+          </rgb>
+          <rgb>
+            <red>34</red>
+            <green>34</green>
+            <blue>34</blue>
+          </rgb>
+          <rgb>
+            <red>51</red>
+            <green>51</green>
+            <blue>51</blue>
+          </rgb>
+          <rgb>
+            <red>68</red>
+            <green>68</green>
+            <blue>68</blue>
+          </rgb>
+          <rgb>
+            <red>85</red>
+            <green>85</green>
+            <blue>85</blue>
+          </rgb>
+          <rgb>
+            <red>102</red>
+            <green>102</green>
+            <blue>102</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>136</green>
+            <blue>136</blue>
+          </rgb>
+          <rgb>
+            <red>153</red>
+            <green>153</green>
+            <blue>153</blue>
+          </rgb>
+          <rgb>
+            <red>170</red>
+            <green>170</green>
+            <blue>170</blue>
+          </rgb>
+          <rgb>
+            <red>187</red>
+            <green>187</green>
+            <blue>187</blue>
+          </rgb>
+          <rgb>
+            <red>204</red>
+            <green>204</green>
+            <blue>204</blue>
+          </rgb>
+          <rgb>
+            <red>221</red>
+            <green>221</green>
+            <blue>221</blue>
+          </rgb>
+          <rgb>
+            <red>238</red>
+            <green>238</green>
+            <blue>238</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>8</int>
+      <palette>
+        <name>pal8</name>
+        <numberOfColors>16</numberOfColors>
+        <index>8</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>17</red>
+            <green>9</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>34</red>
+            <green>18</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>51</red>
+            <green>28</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>68</red>
+            <green>37</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>85</red>
+            <green>46</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>102</red>
+            <green>56</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>59</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>74</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>153</red>
+            <green>84</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>170</red>
+            <green>93</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>187</red>
+            <green>102</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>204</red>
+            <green>112</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>221</red>
+            <green>121</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>238</red>
+            <green>130</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>140</green>
+            <blue>0</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>9</int>
+      <palette>
+        <name>credits</name>
+        <numberOfColors>16</numberOfColors>
+        <index>9</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>240</red>
+            <green>23</green>
+            <blue>23</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>51</red>
+            <green>51</green>
+            <blue>51</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>10</int>
+      <palette>
+        <name>replay at</name>
+        <numberOfColors>16</numberOfColors>
+        <index>10</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>240</red>
+            <green>23</green>
+            <blue>23</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>51</red>
+            <green>51</green>
+            <blue>51</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>11</int>
+      <palette>
+        <name>Sega logo</name>
+        <numberOfColors>16</numberOfColors>
+        <index>11</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>46</red>
+            <green>57</green>
+            <blue>159</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>13</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>51</red>
+            <green>51</green>
+            <blue>51</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>12</int>
+      <palette>
+        <name>Push start</name>
+        <numberOfColors>16</numberOfColors>
+        <index>12</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>72</red>
+            <green>2</green>
+            <blue>2</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>240</red>
+            <green>23</green>
+            <blue>23</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>71</green>
+            <blue>118</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>249</red>
+            <green>249</green>
+            <blue>249</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>51</red>
+            <green>51</green>
+            <blue>51</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>13</int>
+      <palette>
+        <name>id4 logo</name>
+        <numberOfColors>16</numberOfColors>
+        <index>13</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>72</red>
+            <green>2</green>
+            <blue>2</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>240</red>
+            <green>23</green>
+            <blue>23</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>71</green>
+            <blue>118</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>249</red>
+            <green>249</green>
+            <blue>249</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>0</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>51</red>
+            <green>51</green>
+            <blue>51</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>14</int>
+      <palette>
+        <name>just say no</name>
+        <numberOfColors>16</numberOfColors>
+        <index>14</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>72</red>
+            <green>2</green>
+            <blue>2</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>240</red>
+            <green>23</green>
+            <blue>23</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>71</green>
+            <blue>118</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>249</red>
+            <green>249</green>
+            <blue>249</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>18</red>
+            <green>209</green>
+            <blue>114</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>15</int>
+      <palette>
+        <name>enjoy this game</name>
+        <numberOfColors>16</numberOfColors>
+        <index>15</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>71</green>
+            <blue>118</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>240</red>
+            <green>23</green>
+            <blue>23</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>71</green>
+            <blue>118</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>249</red>
+            <green>249</green>
+            <blue>249</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>18</red>
+            <green>209</green>
+            <blue>114</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>16</int>
+      <palette>
+        <name>best value</name>
+        <numberOfColors>16</numberOfColors>
+        <index>16</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>72</red>
+            <green>2</green>
+            <blue>2</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>240</red>
+            <green>23</green>
+            <blue>23</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>71</green>
+            <blue>118</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>249</red>
+            <green>249</green>
+            <blue>249</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>18</red>
+            <green>209</green>
+            <blue>114</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>71</green>
+            <blue>118</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>17</int>
+      <palette>
+        <name>thanks to</name>
+        <numberOfColors>16</numberOfColors>
+        <index>17</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>19</red>
+            <green>30</green>
+            <blue>87</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>240</red>
+            <green>23</green>
+            <blue>23</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>19</red>
+            <green>30</green>
+            <blue>87</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>249</red>
+            <green>249</green>
+            <blue>249</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>18</red>
+            <green>209</green>
+            <blue>114</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>120</red>
+            <green>72</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>187</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>18</int>
+      <palette>
+        <name>score</name>
+        <numberOfColors>16</numberOfColors>
+        <index>18</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>72</red>
+            <green>2</green>
+            <blue>2</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>240</red>
+            <green>23</green>
+            <blue>23</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>71</green>
+            <blue>118</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>249</red>
+            <green>249</green>
+            <blue>249</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>18</red>
+            <green>209</green>
+            <blue>114</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>19</int>
+      <palette>
+        <name>start</name>
+        <numberOfColors>16</numberOfColors>
+        <index>19</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>19</red>
+            <green>30</green>
+            <blue>87</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>240</red>
+            <green>23</green>
+            <blue>23</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>19</red>
+            <green>30</green>
+            <blue>87</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>249</red>
+            <green>249</green>
+            <blue>249</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>18</red>
+            <green>209</green>
+            <blue>114</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+  </paletteMap>
+  <recordingNameMap/>
+  <palMappings>
+    <palMapping>
+      <palIndex>11</palIndex>
+      <durationInMillis>337676</durationInMillis>
+      <durationInFrames>8441</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>ATT Sega logo</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4</animationName>
+      <frameIndex>295</frameIndex>
+      <frameSeqName>ATT Sega logo</frameSeqName>
+      <crc32>M/X0BQ==</crc32>
+      <switchMode>ADD</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>16</palIndex>
+      <durationInMillis>195967</durationInMillis>
+      <durationInFrames>4899</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>ATT best value</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4</animationName>
+      <frameIndex>316</frameIndex>
+      <frameSeqName>ATT best value</frameSeqName>
+      <crc32>IT0X2A==</crc32>
+      <switchMode>ADD</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>9</palIndex>
+      <durationInMillis>1620110</durationInMillis>
+      <durationInFrames>40502</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>ATT credits</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4</animationName>
+      <frameIndex>70</frameIndex>
+      <frameSeqName>ATT credits</frameSeqName>
+      <crc32>VXcigg==</crc32>
+      <switchMode>ADD</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>15</palIndex>
+      <durationInMillis>77346</durationInMillis>
+      <durationInFrames>1933</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>ATT enjoy this game</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4</animationName>
+      <frameIndex>254</frameIndex>
+      <frameSeqName>ATT enjoy this game</frameSeqName>
+      <crc32>p1mO9Q==</crc32>
+      <switchMode>ADD</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>12</palIndex>
+      <durationInMillis>304160</durationInMillis>
+      <durationInFrames>7604</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>ATT id4 logo</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4</animationName>
+      <frameIndex>211</frameIndex>
+      <frameSeqName>ATT id4 logo</frameSeqName>
+      <crc32>zJygPA==</crc32>
+      <switchMode>REPLACE</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>14</palIndex>
+      <durationInMillis>52</durationInMillis>
+      <durationInFrames>1</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>ATT just say no</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4</animationName>
+      <frameIndex>224</frameIndex>
+      <frameSeqName>ATT just say no</frameSeqName>
+      <crc32>5ux40Q==</crc32>
+      <switchMode>REPLACE</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>12</palIndex>
+      <durationInMillis>183011</durationInMillis>
+      <durationInFrames>4575</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>ATT push start</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4</animationName>
+      <frameIndex>71</frameIndex>
+      <frameSeqName>ATT push start</frameSeqName>
+      <crc32>f/WbWA==</crc32>
+      <switchMode>REPLACE</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>9</palIndex>
+      <durationInMillis>180394</durationInMillis>
+      <durationInFrames>4509</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>ATT replay at</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4</animationName>
+      <frameIndex>75</frameIndex>
+      <frameSeqName>ATT replay at</frameSeqName>
+      <crc32>eAIWoA==</crc32>
+      <switchMode>ADD</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>18</palIndex>
+      <durationInMillis>1622725</durationInMillis>
+      <durationInFrames>40568</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>ATT score</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4</animationName>
+      <frameIndex>98</frameIndex>
+      <frameSeqName>ATT score</frameSeqName>
+      <crc32>fOURng==</crc32>
+      <switchMode>ADD</switchMode>
+      <withMask>true</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>19</palIndex>
+      <durationInMillis>193354</durationInMillis>
+      <durationInFrames>4833</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>ATT start</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4</animationName>
+      <frameIndex>0</frameIndex>
+      <frameSeqName>ATT start</frameSeqName>
+      <crc32>lH9OXQ==</crc32>
+      <switchMode>REPLACE</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>17</palIndex>
+      <durationInMillis>391793</durationInMillis>
+      <durationInFrames>9794</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>ATT thanks to</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4</animationName>
+      <frameIndex>364</frameIndex>
+      <frameSeqName>ATT thanks to</frameSeqName>
+      <crc32>BNKM3A==</crc32>
+      <switchMode>REPLACE</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+  </palMappings>
+  <scenes/>
+  <bookmarksMap>
+    <entry>
+      <string>id4</string>
+      <sorted-set>
+        <bookmark>
+          <name>ATT start</name>
+          <pos>0</pos>
+        </bookmark>
+        <bookmark>
+          <name>ATT credits</name>
+          <pos>70</pos>
+        </bookmark>
+        <bookmark>
+          <name>ATT push start</name>
+          <pos>71</pos>
+        </bookmark>
+        <bookmark>
+          <name>ATT replay at</name>
+          <pos>75</pos>
+        </bookmark>
+        <bookmark>
+          <name>ATT score</name>
+          <pos>98</pos>
+        </bookmark>
+        <bookmark>
+          <name>ATT score2</name>
+          <pos>111</pos>
+        </bookmark>
+        <bookmark>
+          <name>ATT id4 logo</name>
+          <pos>211</pos>
+        </bookmark>
+        <bookmark>
+          <name>ATT just say no</name>
+          <pos>224</pos>
+        </bookmark>
+        <bookmark>
+          <name>ATT enjoy this game</name>
+          <pos>254</pos>
+        </bookmark>
+        <bookmark>
+          <name>ATT Sega logo</name>
+          <pos>295</pos>
+        </bookmark>
+        <bookmark>
+          <name>ATT best value</name>
+          <pos>316</pos>
+        </bookmark>
+        <bookmark>
+          <name>ATT thanks to</name>
+          <pos>364</pos>
+        </bookmark>
+      </sorted-set>
+    </entry>
+  </bookmarksMap>
+  <name>v01</name>
+  <mask>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</mask>
+  <dirty>false</dirty>
+  <masks>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>AAAAAAAAAH/AAAAAAAAAAAAAAAAAAAB/wAAAAAAAAAAAAAAAAAAAf8AAAAAAAAAAAAAAAAAAAH/A
+AAAAAAAAAAAAAAAAAAB/wAAAAAAAAAAAAAAAAAAAf8AAAAAAAAAAAAAAAAAAAH/AAAAAAAAAAAAA
+AAAAAAB/wAAAAAAAAAAAAAAAAAAAf8AAAAAAAAAAAAAAAAAAAH/AAAAAAAAAAAAAAAAAAAB/wAAA
+AAAAAAAAAAAAAAAAf8AAAAAAAAAAAAAAAAAAAH/AAAAAAAAAAAAAAAAAAAB/wAAAAAAAAAAAAAAA
+AAAAf8AAAAAAAAAAAAAAAAAAAH/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</data>
+      <locked>true</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+    <com.rinke.solutions.pinball.model.Mask>
+      <data>////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////8=
+</data>
+      <locked>false</locked>
+    </com.rinke.solutions.pinball.model.Mask>
+  </masks>
+  <width>128</width>
+  <height>32</height>
+</project>
