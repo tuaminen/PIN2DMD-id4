@@ -1,14 +1,49 @@
 NEXT:
+
+Credit 1 scrollaa alhaalta kun laittaa rahaa
+
+leikkaa lock 1 / lock 2 alkuosa erikseen (on sama)
+
+
 attraction mode loppuun:
 	-TODO	in memory of donald
 
 -laita start "independence day" alkuun
 
+leikkaa multiball-flashing score jackpots erilleen
+
+leikkaa 1 more hit.. alien erikseen
+
+
+
+vertaa Lock 1 / lock 2:n frameja, missä eka erilainen?
+
+-pilko match osiin: anim. ennen numeroita vasemmalla
+
+
+-pilko red alert osiin
+ * red alert countdown alkaa "red alert"-animaatiolla, jossa frame#6 (hash 3100F575) on sama kuin 
+
+
+
+Common design:
+-4px reunus-teemat
+-1px reunus-teemat
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------
 
 Init mode:
 -OK		SEGA PINBALL ID4
 -OK		checksum
 -OK		location id
+
+-------------------------------------------------------------------------------
 
 Attraction mode:
 -OK		PUSH start (single + anim)
@@ -50,44 +85,159 @@ OK		game over
 -TODO 	CREDIT x 1/2  onko tätä?
 -TODO 	CREDITS x 1/2
 
+-------------------------------------------------------------------------------
 
 Game mode:
 
--TODO	start planet + "independence day", blue flicker vaihdossa
+Start:
+-FIX	start planet + "independence day", blue flicker vaihdossa
 
--TODO	score anim (during ball start)
+
+Skill shot:
+-TODO	score anim (during ball start + when nothing happening)
 -TODO 	skill shot aim
 -UGLY 	skill shot missed
 -TODO	skill shot hit explosion anim
 -UGLY 	skill shot hit 20M
 
--BUGS?	ball saved
+
+Alien head: (OPTO trigger while alien closed, then Kicker10 under alien)
+cut 	lock 1 lit (contains transient to score in the end!)
+cut		lock 2
+-OK		multiball ready
+-BUGS?	multiball (dogfight, "multiball")
+TODO 	1 more hit for lock lit (leikkaa alien alusta pois)
+cut 	2 more hits for lock lit
+-	 	3 more hits for lock lit
+
+
+Virus:
+OK?		initiating computer virus
+OK?		virus 20% complete
+OK?		virus 40% complete
+OK?		virus 60% complete
+OK?		virus 100% complete
+OK?		for 100M shoot right loop (virus complete)
+
+
+Alien scan:
+cut 	alien scan ready
+cut 	alien scan, multiball
+		alien scan, area 51 multiball -same beginning anim as in alien scan multiball?
+		alien scan, add bonus X -same beginning anim as in alien scan multiball?
+cut		alien frenzy - pops score 1MIL
+cut		alien frenzy start anim
+OK		X alien Y more for extra ball lit 
+OK		X aliens Y more for extra ball lit
+		
+??
+cut 	alien ship explosion
+
+
+Alien ships:
+cut	10 million ship anim (hit 3 alien ships right to alien head)
+
+
+
+Red alert:
+OK		5 million, complete ramps for red alert
+OK		5 million (large flashing, with borders)
+OK		10 million, complete ramps for red alert
+cut		10 million, complete this ramp for red alert
+OK		10 million (large flashing, with borders)
+cut		red alert + 50M flashing ramps countdown
+cut		red alert 50M avarded
+		
+-		20 million, complete this ramp for red alert
+
+F-18 hurry up:
+OK		f-18 hurry-up grows
+cut		f-18 hurry-up shoot left loop to kill alien ship
+cut		f-18 hurry up total (displayed also after ball)
+cut		10,000,000 finish bank again for F-18 hurryup
+
+
+Pop bumpers:
+OK		pop bumper score
+
+
+Bonus stuff:
+cut 	double jackpot 90M
+cut 	double jackpot 40M
+cut 	double jackpot 80M
+cut		2x jackpot ready 80 million shoot right loop
+cut		2x jackpot ready 80 million shoot left loop
+
+-		triple jackpot anim
+			120M
+			135M
+
+- super jackpot 
+		160M
+			
+-		3x jackpots ready 120 million shoot center ramp / right ramp		
+
+cut		jackpot ready 40 million shoot inside head
+cut		2x bonus
+cut		4x bonus
+cut		8x bonus
+cut		10x bonus
+cut		ramp complete
+		5 million (alien on top of text) 1st 
+		5 million (alien on top of text) 2nd, any more??
+-		20 million (large flashing)
+-		50 million (large flashing)
+cut		left loop plane&alien
+cut		left loop plane shoots alien
+
+cut 	multiball restart
+
+area 51 multiball:
+-		area 51 multiball siren anim
+-		area 51 multiball mioni-loop = XXmil
+		area 51 bonus
+		
+		ball added
+replay (wh exposion)
+
+
+-		2nd of july
+-		3rd of july
+-		4th of july
+
+
+Other:
+cut		extra ball (white house explodes)
+OK		<score>
+
+OK		alien ship left anim
+OK		alien ship right anim
+
+
+
+Ball end:
+UGLY	bonus / id4 bonus / alien bonus / area 51 / Xx bonus / total bonus
+cut		total bonus (animates from center)
+OK?		shoot again
+OK		ball saved
+UGLY	fat lady sings
+		
+		
+
+
+ball added -animation ('ball' 'added' texts vertically on the side)
+
+
 TODO	combo / jackpot
-
-TODO	2x jackpot ready 80 million shoot right loop
-
-TODO 	alien ship fly anim + complete ramps for red alert
 
 TODO 	ramp complete + left ramp
 
-TODO	pop bumpers score <xxxxxxx>
 
-TODO	F-18 hurry up
-TODO	f-18 hurry up total
+-		extra ball is lit
 
-UGLY	bonus / alien bonus / area 51 / total bonus
 
-TODO 	lock 1
-TODO	lock 2
--OK		multiball ready
--BUGS?	multiball	
+TODO	"special"
 
-TODO	2x bonus
-TODO	special
-
-TODO	initiating computer virus
-TODO	..20% complete
-TODO	<score>
 
 TODO	PLAYER x up
 
@@ -100,7 +250,38 @@ TODO	SCORES
 
 
 TODO	5 million
-TODO	loop combo 5million
+TODO	loop combo x million, combo target = y million (skrollaa aina vasemmalta keskelle)
 
 
 TODO	Instant info (hold right flipper)
+
+-------------------------------------------------------------------------------
+
+POSTGAME
+
+cut		enter initials
+
+
+
+
+-------------------------------------------------------------------------------
+
+TRANSIENTS:
+-red alert total -> spin -> score
+-f-18 hurry up total -> spin -> score
+-lock 1 lit -> rows -> score
+-lock 2 lit -> rows -> score
+<score> -> rows -> bonus
+f-18 hurry up grows -> rows -> bonus
+
+
+any -> scroll from bottom -> keep shooting, ball saved 
+any -> scroll from bottom -> alien frenzy total
+any -> grow from center -> total bonus XXXXXX 
+
+
+ISSUES:
+-alien frenzy total beginning anim cannot be detected from a single row on the bottom
+
+Q: onko 2x / 4x etc. bonukset aina "f-18 hurryup:n perään? ts. voiko ko. animaation aloittaa f-18:n lopputransientista? 
+A: ei
