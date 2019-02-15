@@ -2,7 +2,6 @@ NEXT:
 
 Credit 1 scrollaa alhaalta kun laittaa rahaa
 
-leikkaa lock 1 / lock 2 alkuosa erikseen (on sama)
 
 
 attraction mode loppuun:
@@ -15,8 +14,6 @@ leikkaa multiball-flashing score jackpots erilleen
 leikkaa 1 more hit.. alien erikseen
 
 
-
-vertaa Lock 1 / lock 2:n frameja, missä eka erilainen?
 
 -pilko match osiin: anim. ennen numeroita vasemmalla
 
@@ -39,84 +36,85 @@ Common design:
 -------------------------------------------------------------------------------
 
 Init mode:
--OK		SEGA PINBALL ID4
--OK		checksum
--OK		location id
+OK		SEGA PINBALL ID4
+OK		checksum
+OK		location id
 
 -------------------------------------------------------------------------------
 
 Attraction mode:
--OK		PUSH start (single + anim)
--OK		insert coins
--OK		replay at
--OK		#1..#6 regular
--OK		id4 logo
--OK		just say no to alien invasion
--UGLY	enjoy this game
--OK		SEGA logo
--OK		best value
--OK		20th fox
--OK		thanks to
--OK		id4 super jackpot
--UGLY	special thanks to trendmasters
--BUGS	trendmasters id4 toys available
--OK		in memory of Milton feldman
--TODO	in memory of donald
+OK		PUSH start (single + anim)
+OK		insert coins
+OK		replay at
+OK		#1..#6 regular
+OK		id4 logo
+OK		just say no to alien invasion
+UGLY	enjoy this game
+OK		SEGA logo
+OK		best value
+OK		20th fox
+OK		thanks to
+OK		id4 super jackpot
+UGLY	special thanks to trendmasters
+BUGS	trendmasters id4 toys available
+OK		in memory of Milton feldman
+TODO	in memory of donald
 OK		<score>	
 OK		game over
 
--UGLY?	BSMT 2000
--UGLY?	digital sound system
--UGLY	will Smith
--UGLY	Bill Pullman
--UGLY	Jeff Goldblum
--UGLY	Mary McDonnell
--UGLY	Judd Hirsch
--UGLY	Robert Loggia
--UGLY	Randy Quaid
--UGLY	Margaret Colin
--UGLY	Harvey Fierstein
--UGLY	Viveca Fox
--UGLY	Brent Spiner
--OK? 	id4 credits
--?		add 1 coin for 1 credit
--? 		CREDIT 1/2
--buggy	CREDIT x 
--TODO 	CREDIT x 1/2  onko tätä?
--TODO 	CREDITS x 1/2
+UGLY?	BSMT 2000
+UGLY?	digital sound system
+UGLY	will Smith
+UGLY	Bill Pullman
+UGLY	Jeff Goldblum
+UGLY	Mary McDonnell
+UGLY	Judd Hirsch
+UGLY	Robert Loggia
+UGLY	Randy Quaid
+UGLY	Margaret Colin
+UGLY	Harvey Fierstein
+UGLY	Viveca Fox
+UGLY	Brent Spiner
+OK? 	id4 credits
+?		add 1 coin for 1 credit
+? 		CREDIT 1/2
+buggy	CREDIT x 
+TODO 	CREDIT x 1/2  onko tätä?
+TODO 	CREDITS x 1/2
 
 -------------------------------------------------------------------------------
 
 Game mode:
 
 Start:
--FIX	start planet + "independence day", blue flicker vaihdossa
+FIX	start planet + "independence day", blue flicker vaihdossa
 
 
 Skill shot:
--TODO	score anim (during ball start + when nothing happening)
--TODO 	skill shot aim
--UGLY 	skill shot missed
--TODO	skill shot hit explosion anim
--UGLY 	skill shot hit 20M
+TODO	score anim (during ball start + when nothing happening)
+TODO 	skill shot aim
+UGLY 	skill shot missed
+TODO	skill shot hit explosion anim
+UGLY 	skill shot hit 20M
 
 
 Alien head: (OPTO trigger while alien closed, then Kicker10 under alien)
 cut 	lock 1 lit (contains transient to score in the end!)
-cut		lock 2
--OK		multiball ready
--BUGS?	multiball (dogfight, "multiball")
+UGLYBUG lock 1, timing issue
+BUG		lock 2, timing issue
+OK		multiball ready
+BUGS?	multiball (dogfight, "multiball")
 TODO 	1 more hit for lock lit (leikkaa alien alusta pois)
 cut 	2 more hits for lock lit
 -	 	3 more hits for lock lit
 
 
 Virus:
-OK?		initiating computer virus
-OK?		virus 20% complete
-OK?		virus 40% complete
-OK?		virus 60% complete
-OK?		virus 100% complete
+OK		initiating computer virus
+OK		virus 20% complete
+OK		virus 40% complete
+OK		virus 60% complete
+OK		virus 100% complete
 OK?		for 100M shoot right loop (virus complete)
 
 
@@ -156,6 +154,16 @@ cut		f-18 hurry-up shoot left loop to kill alien ship
 cut		f-18 hurry up total (displayed also after ball)
 cut		10,000,000 finish bank again for F-18 hurryup
 
+"newstuff"	f18 too late
+
+July:
+OK		july 2
+OK		july 3
+OK		july 4
+OK		july 4 (later)
+OK		july 5
+OK		25 million
+
 
 Pop bumpers:
 OK		pop bumper score
@@ -174,6 +182,10 @@ cut		2x jackpot ready 80 million shoot left loop
 
 - super jackpot 
 		160M
+			
+			
+"newstuff"	jackpot alien
+
 			
 -		3x jackpots ready 120 million shoot center ramp / right ramp		
 
@@ -201,9 +213,7 @@ area 51 multiball:
 replay (wh exposion)
 
 
--		2nd of july
--		3rd of july
--		4th of july
+
 
 
 Other:
@@ -212,7 +222,10 @@ OK		<score>
 
 OK		alien ship left anim
 OK		alien ship right anim
+TODO	DANGER + TILT
 
+
+"newstuff"	"highest score" "300000000"
 
 
 Ball end:
@@ -223,18 +236,22 @@ OK		ball saved
 UGLY	fat lady sings
 		
 		
-
-
-ball added -animation ('ball' 'added' texts vertically on the side)
-
+		
+"new stuff"	"ball added" +  ship right-to-eft
+		ball added -animation ('ball' 'added' texts vertically on the side)
 
 TODO	combo / jackpot
 
 TODO 	ramp complete + left ramp
 
 
+
+
+
 -		extra ball is lit
 
+
+50 million alien slime
 
 TODO	"special"
 
@@ -242,11 +259,11 @@ TODO	"special"
 TODO	PLAYER x up
 
 
-TODO	DANGER + TILT
+
 
 TODO	SCORES
 
--BUGS	match
+BUGS	match
 
 
 TODO	5 million
@@ -258,10 +275,8 @@ TODO	Instant info (hold right flipper)
 -------------------------------------------------------------------------------
 
 POSTGAME
-
-cut		enter initials
-
-
+OK		"enter initials"
+OK		initials entry
 
 
 -------------------------------------------------------------------------------
@@ -279,6 +294,8 @@ any -> scroll from bottom -> keep shooting, ball saved
 any -> scroll from bottom -> alien frenzy total
 any -> grow from center -> total bonus XXXXXX 
 
+
+-------------------------------------------------------------------------------
 
 ISSUES:
 -alien frenzy total beginning anim cannot be detected from a single row on the bottom
