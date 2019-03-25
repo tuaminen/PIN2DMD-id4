@@ -1,3 +1,17 @@
+Testaus:
+-Pin2dmd editor: File-> Export project (virt pin) to C:\Visual Pinball\VPinMAME\altcolor\id4
+-Starttaa "C:\Visual Pinball\VPinball995.exe"
+
+
+
+-Replace-moodin ajoitus toimii paremmin animaatioissa?
+
+
+
+
+
+
+
 NEXT:
 
 Credit 1 scrollaa alhaalta kun laittaa rahaa
@@ -62,8 +76,8 @@ TODO	in memory of donald
 OK		<score>	
 OK		game over
 
-UGLY?	BSMT 2000
-UGLY?	digital sound system
+TEST 	BSMT 2000
+TEST	digital sound system
 UGLY	will Smith
 UGLY	Bill Pullman
 UGLY	Jeff Goldblum
@@ -99,9 +113,10 @@ UGLY 	skill shot hit 20M
 
 
 Alien head: (OPTO trigger while alien closed, then Kicker10 under alien)
-cut 	lock 1 lit (contains transient to score in the end!)
-UGLYBUG lock 1, timing issue
-BUG		lock 2, timing issue
+OK	 	lock 1 lit (contains transient to score in the end!)
+OK		lock 1, timing issue
+OK	 	lock 2 lit (contains transient to score in the end!)
+OK		lock 2, timing issue
 OK		multiball ready
 BUGS?	multiball (dogfight, "multiball")
 TODO 	1 more hit for lock lit (leikkaa alien alusta pois)
