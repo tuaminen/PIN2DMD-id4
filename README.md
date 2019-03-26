@@ -1,25 +1,32 @@
+NOTES:
+-Replace-moodin ajoitus toimii paremmin animaatioissa?
+
+
 Testaus:
 -Pin2dmd editor: File-> Export project (virt pin) to C:\Visual Pinball\VPinMAME\altcolor\id4
 -Starttaa "C:\Visual Pinball\VPinball995.exe"
 
-
-
--Replace-moodin ajoitus toimii paremmin animaatioissa?
-
-
-
-
-
-
-
 NEXT:
+-"Color conversion PT"
+
+attraction mode loppuun:
+	-TODO	in memory of donald
+
+
+
+
+
+
+
+
+
+
+
 
 Credit 1 scrollaa alhaalta kun laittaa rahaa
 
 
 
-attraction mode loppuun:
-	-TODO	in memory of donald
 
 -laita start "independence day" alkuun
 
