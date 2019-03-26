@@ -83,8 +83,8 @@ TODO	in memory of donald
 OK		<score>	
 OK		game over
 
-TEST 	BSMT 2000
-TEST	digital sound system
+OK	 	BSMT 2000
+OK		digital sound system
 UGLY	will Smith
 UGLY	Bill Pullman
 UGLY	Jeff Goldblum
@@ -108,8 +108,7 @@ TODO 	CREDITS x 1/2
 Game mode:
 
 Start:
-FIX	start planet + "independence day", blue flicker vaihdossa
-
+OK	start planet + "independence day"
 
 Skill shot:
 TODO	score anim (during ball start + when nothing happening)
@@ -117,19 +116,6 @@ TODO 	skill shot aim
 UGLY 	skill shot missed
 TODO	skill shot hit explosion anim
 UGLY 	skill shot hit 20M
-
-
-Alien head: (OPTO trigger while alien closed, then Kicker10 under alien)
-OK	 	lock 1 lit (contains transient to score in the end!)
-OK		lock 1, timing issue
-OK	 	lock 2 lit (contains transient to score in the end!)
-OK		lock 2, timing issue
-OK		multiball ready
-BUGS?	multiball (dogfight, "multiball")
-TODO 	1 more hit for lock lit (leikkaa alien alusta pois)
-cut 	2 more hits for lock lit
--	 	3 more hits for lock lit
-
 
 Virus:
 OK		initiating computer virus
@@ -139,6 +125,16 @@ OK		virus 60% complete
 OK		virus 100% complete
 OK?		for 100M shoot right loop (virus complete)
 
+Alien head: (OPTO trigger while alien closed, then Kicker10 under alien)
+OK	 	lock 1 lit (contains transient to score in the end!)
+OK		lock 1, timing issue
+OK	 	lock 2 lit (contains transient to score in the end!)
+OK		lock 2, timing issue
+OK		multiball ready
+OK		multiball (dogfight, "multiball")
+TODO 	1 more hit for lock lit (leikkaa alien alusta pois)
+cut 	2 more hits for lock lit
+-	 	3 more hits for lock lit
 
 Alien scan:
 cut 	alien scan ready
@@ -151,7 +147,7 @@ OK		X alien Y more for extra ball lit
 OK		X aliens Y more for extra ball lit
 		
 ??
-cut 	alien ship explosion
+OK	 	alien ship explosion
 
 
 Alien ships:
