@@ -1387,14 +1387,14 @@
         <index>15</index>
         <colors>
           <rgb>
-            <red>0</red>
-            <green>0</green>
-            <blue>0</blue>
-          </rgb>
-          <rgb>
             <red>218</red>
             <green>36</green>
             <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>216</red>
+            <green>149</green>
+            <blue>147</blue>
           </rgb>
           <rgb>
             <red>136</red>
@@ -1402,9 +1402,9 @@
             <blue>0</blue>
           </rgb>
           <rgb>
-            <red>9</red>
-            <green>99</green>
-            <blue>209</blue>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
           </rgb>
           <rgb>
             <red>0</red>
@@ -6259,7 +6259,7 @@
       <animatisonIndex>0</animatisonIndex>
       <animationName>id4</animationName>
       <frameIndex>295</frameIndex>
-      <frameSeqName>ATT Sega logo</frameSeqName>
+      <frameSeqName>ATT sega logo</frameSeqName>
       <crc32>M/X0BQ==</crc32>
       <switchMode>ADD</switchMode>
       <withMask>false</withMask>
@@ -6463,13 +6463,13 @@
     <palMapping>
       <palIndex>9</palIndex>
       <durationInMillis>4428696</durationInMillis>
-      <durationInFrames>110522</durationInFrames>
+      <durationInFrames>110717</durationInFrames>
       <hashIndex>0</hashIndex>
-      <name>ATT credits</name>
+      <name>ATT credits x</name>
       <animatisonIndex>0</animatisonIndex>
       <animationName>id4</animationName>
       <frameIndex>70</frameIndex>
-      <frameSeqName>ATT credits</frameSeqName>
+      <frameSeqName>ATT credits x</frameSeqName>
       <crc32>uA04Eg==</crc32>
       <switchMode>ADD</switchMode>
       <withMask>true</withMask>
@@ -6478,13 +6478,13 @@
     <palMapping>
       <palIndex>9</palIndex>
       <durationInMillis>2943889</durationInMillis>
-      <durationInFrames>74755</durationInFrames>
+      <durationInFrames>73597</durationInFrames>
       <hashIndex>0</hashIndex>
-      <name>ATT credits 1/2</name>
+      <name>ATT credits x 1/2</name>
       <animatisonIndex>0</animatisonIndex>
       <animationName>id4_play</animationName>
       <frameIndex>2135</frameIndex>
-      <frameSeqName>ATT credits 1/2</frameSeqName>
+      <frameSeqName>ATT credits x 1/2</frameSeqName>
       <crc32>0NYExA==</crc32>
       <switchMode>ADD</switchMode>
       <withMask>true</withMask>
@@ -6499,7 +6499,7 @@
       <animatisonIndex>0</animatisonIndex>
       <animationName>id4_fat_lady</animationName>
       <frameIndex>120</frameIndex>
-      <frameSeqName>ATT credits 1/2</frameSeqName>
+      <frameSeqName>ATT credits x 1/2</frameSeqName>
       <crc32>PRidEw==</crc32>
       <switchMode>ADD</switchMode>
       <withMask>true</withMask>
@@ -6514,7 +6514,7 @@
       <animatisonIndex>0</animatisonIndex>
       <animationName>id4_fat_lady</animationName>
       <frameIndex>103</frameIndex>
-      <frameSeqName>ATT credits 1/2</frameSeqName>
+      <frameSeqName>ATT credits x 1/2</frameSeqName>
       <crc32>TgLL+w==</crc32>
       <switchMode>ADD</switchMode>
       <withMask>true</withMask>
@@ -6553,7 +6553,7 @@
     <palMapping>
       <palIndex>22</palIndex>
       <durationInMillis>2851048</durationInMillis>
-      <durationInFrames>74431</durationInFrames>
+      <durationInFrames>71276</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT game over</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6568,7 +6568,7 @@
     <palMapping>
       <palIndex>41</palIndex>
       <durationInMillis>699724</durationInMillis>
-      <durationInFrames>24254</durationInFrames>
+      <durationInFrames>17493</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT id4 credits</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6583,7 +6583,7 @@
     <palMapping>
       <palIndex>12</palIndex>
       <durationInMillis>2541520</durationInMillis>
-      <durationInFrames>70299</durationInFrames>
+      <durationInFrames>63538</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT id4 logo</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6613,7 +6613,7 @@
     <palMapping>
       <palIndex>32</palIndex>
       <durationInMillis>255946</durationInMillis>
-      <durationInFrames>13160</durationInFrames>
+      <durationInFrames>6398</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT insert coins</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7928,7 +7928,7 @@
           <pos>0</pos>
         </bookmark>
         <bookmark>
-          <name>ATT credits</name>
+          <name>ATT credits x</name>
           <pos>70</pos>
         </bookmark>
         <bookmark>
@@ -7960,7 +7960,7 @@
           <pos>254</pos>
         </bookmark>
         <bookmark>
-          <name>ATT Sega logo</name>
+          <name>ATT sega logo</name>
           <pos>295</pos>
         </bookmark>
         <bookmark>
@@ -8367,7 +8367,7 @@
       <string>id4_play</string>
       <sorted-set>
         <bookmark>
-          <name>ATT credits 1/2</name>
+          <name>ATT credits x 1/2</name>
           <pos>2135</pos>
         </bookmark>
         <bookmark>

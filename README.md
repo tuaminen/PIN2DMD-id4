@@ -64,44 +64,48 @@ OK		location id
 -------------------------------------------------------------------------------
 
 Attraction mode:
-OK		PUSH start (single + anim)
-OK		insert coins
-OK		replay at
-OK		#1..#6 regular
-OK		id4 logo
-OK		just say no to alien invasion
-UGLY	enjoy this game
-OK		SEGA logo
-OK		best value
 OK		20th fox
-OK		thanks to
-OK		id4 super jackpot
-UGLY	special thanks to trendmasters
-BUGS	trendmasters id4 toys available
-OK		in memory of Milton feldman
-TODO	in memory of donald
-OK		<score>	
-OK		game over
-
 OK	 	BSMT 2000
+OK		add 1 coin for 1 credit
+OK		best value
+UGLY	cast Bill Pullman
+UGLY	cast Brent Spiner
+UGLY	cast Harvey Fierstein
+UGLY	cast Jeff Goldblum
+UGLY	cast Judd Hirsch
+UGLY	cast Margaret Colin
+UGLY	cast Mary McDonnell
+UGLY	cast Randy Quaid
+UGLY	cast Robert Loggia
+UGLY	cast Viveca Fox
+UGLY	cast will Smith
+OK		CREDITS x
+OK	 	CREDITS x 1/2
 OK		digital sound system
-UGLY	will Smith
-UGLY	Bill Pullman
-UGLY	Jeff Goldblum
-UGLY	Mary McDonnell
-UGLY	Judd Hirsch
-UGLY	Robert Loggia
-UGLY	Randy Quaid
-UGLY	Margaret Colin
-UGLY	Harvey Fierstein
-UGLY	Viveca Fox
-UGLY	Brent Spiner
-OK? 	id4 credits
-?		add 1 coin for 1 credit
+OK		enjoy this game
+OK		game over 					//KEYFRAME: change mode????
+OK? 	id4 credits					TUTKI TIMING
+OK		id4 logo
+OK		in memory of Milton feldman
+OK		insert coins
+OK		just say no to alien invasion
+OK		PUSH start (single + anim)
+OK		replay at
+OK		score: #1..#6 regular
+OK		SEGA logo
+OK		id4 super jackpot
+OK		thanks to
+UGLY	special thanks to trendmasters				TODO
+BUGS	trendmasters id4 toys available
+
+
+OK		<score>	
+
 ? 		CREDIT 1/2
 buggy	CREDIT x 
 TODO 	CREDIT x 1/2  onko tätä?
-TODO 	CREDITS x 1/2
+
+TODO	in memory of donald
 
 -------------------------------------------------------------------------------
 
