@@ -1,3 +1,12 @@
+POST match:
+-delete unused scenes
+
+
+
+
+leikkaa play2 loppuun
+
+
 NOTES:
 -Replace-moodin ajoitus toimii paremmin animaatioissa?
 
@@ -35,8 +44,6 @@ leikkaa multiball-flashing score jackpots erilleen
 leikkaa 1 more hit.. alien erikseen
 
 
-
--pilko match osiin: anim. ennen numeroita vasemmalla
 
 
 -pilko red alert osiin
@@ -98,7 +105,7 @@ OK		thanks to
 UGLY	special thanks to trendmasters				TODO
 BUGS	trendmasters id4 toys available
 
-
+tutki allaolevat
 OK		<score>	
 
 ? 		CREDIT 1/2
@@ -239,7 +246,7 @@ replay (wh exposion)
 
 
 Other:
-cut		extra ball (white house explodes)
+UGLY		extra ball (white house explodes)
 OK		<score>
 
 OK		alien ship left anim
@@ -255,7 +262,6 @@ UGLY	bonus / id4 bonus / alien bonus / area 51 / Xx bonus / total bonus
 cut		total bonus (animates from center)
 OK?		shoot again
 OK		ball saved
-UGLY	fat lady sings
 		
 		
 		
@@ -285,7 +291,6 @@ TODO	PLAYER x up
 
 TODO	SCORES
 
-BUGS	match
 
 
 TODO	5 million
@@ -298,7 +303,9 @@ TODO	Instant info (hold right flipper)
 
 POSTGAME
 OK		"enter initials"
+OK		fat lady sings
 OK		initials entry
+OK		match							colorize ending better
 
 
 -------------------------------------------------------------------------------
