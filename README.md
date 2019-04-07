@@ -1,3 +1,9 @@
+x -bonus:
+-onko 4x anim kokonaan tallennettu? muissa 34 framea. 
+6x anim puuttuu (pelkkä 1 frame)
+
+ 
+
 POST match:
 -delete unused scenes
 
@@ -374,3 +380,9 @@ ISSUES:
 
 Q: onko 2x / 4x etc. bonukset aina "f-18 hurryup:n perään? ts. voiko ko. animaation aloittaa f-18:n lopputransientista? 
 A: ei
+
+
+
+
+
+FINETUNING:
