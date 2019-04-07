@@ -133,7 +133,7 @@ OK		initiating computer virus
 OK		virus 20% complete
 OK		virus 40% complete
 OK		virus 60% complete
-OK		virus 100% complete
+OK		virus 100% complete alien shield disabled
 OK?		for 100M shoot right loop (virus complete)
 
 Alien head: (OPTO trigger while alien closed, then Kicker10 under alien)
@@ -160,6 +160,16 @@ OK		X aliens Y more for extra ball lit
 ??
 OK	 	alien ship explosion
 
+area 51 multiball:
+cut		area 51 multiball radar anim
+cut		area 51 multiball radar anim post transient to mini-loop
+cut		area 51 multiball mini-loop = XXmil lit targets ...
+cut		area 51 multiball mini-loop = XXmil targets ...
+cut		ball added ship right-to-left anim ("transparent")
+cut		area 51 total startanim
+cut		area 51 total <score>
+cust	area 51 total postanim
+		
 
 Alien ships:
 cut	10 million ship anim (hit 3 alien ships right to alien head)
@@ -198,25 +208,52 @@ Pop bumpers:
 OK		pop bumper score
 
 
-Bonus stuff:
+
+Extra ball related
+OK		extra ball (white house explodes)
+OK		extra ball explodes
+cut		extra ball is lit startanim
+cut		extra ball is lit startanim
+
+
+Jackpot related
+cut		jackpot alien startanim
+
 cut 	double jackpot 90M
 cut 	double jackpot 40M
 cut 	double jackpot 80M
 cut		2x jackpot ready 80 million shoot right loop
 cut		2x jackpot ready 80 million shoot left loop
 
+
+-		3x jackpots ready 120 million shoot center ramp / right ramp		
+
 -		triple jackpot anim
 			120M
 			135M
-
 - super jackpot 
 		160M
 			
 			
-"newstuff"	jackpot alien
+Bonus stuff:
+
 
 			
--		3x jackpots ready 120 million shoot center ramp / right ramp		
+cut		loop combo x million startanim (skrollaa aina vasemmalta keskelle)
+cut		combo target = y million static 1/2
+cut		combo target = y million static 2/2
+
+
+			
+
+
+			
+
+			
+			
+
+
+			
 
 cut		jackpot ready 40 million shoot inside head
 cut		2x bonus
@@ -233,20 +270,23 @@ cut		left loop plane shoots alien
 
 cut 	multiball restart
 
-area 51 multiball:
--		area 51 multiball siren anim
--		area 51 multiball mioni-loop = XXmil
-		area 51 bonus
 		
-		ball added
-replay (wh exposion)
+cut 	replay (wh exposion) startanim
+cut 	replay static 1/2
+cut 	replay static 2/2
+cut 	replay postanim	
+
 
 
 
 
 
 Other:
-UGLY		extra ball (white house explodes)
+
+
+
+
+
 OK		<score>
 
 OK		alien ship left anim
@@ -276,7 +316,6 @@ TODO 	ramp complete + left ramp
 
 
 
--		extra ball is lit
 
 
 50 million alien slime
@@ -294,7 +333,6 @@ TODO	SCORES
 
 
 TODO	5 million
-TODO	loop combo x million, combo target = y million (skrollaa aina vasemmalta keskelle)
 
 
 TODO	Instant info (hold right flipper)
@@ -310,7 +348,7 @@ OK		match							colorize ending better
 
 -------------------------------------------------------------------------------
 
-TRANSIENTS:
+TRANSIENTS / transparency:
 -red alert total -> spin -> score
 -f-18 hurry up total -> spin -> score
 -lock 1 lit -> rows -> score
@@ -319,9 +357,14 @@ TRANSIENTS:
 f-18 hurry up grows -> rows -> bonus
 
 
+
 any -> scroll from bottom -> keep shooting, ball saved 
 any -> scroll from bottom -> alien frenzy total
 any -> grow from center -> total bonus XXXXXX 
+-jackpot -> grow from center -> back to prev. displayed
+-replay -> grow from center -> back to prev. displayed
+-extra ball ball explosion -> scroll from left -> back to prev. displayed
+
 
 
 -------------------------------------------------------------------------------

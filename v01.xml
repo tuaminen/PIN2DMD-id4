@@ -22,19 +22,19 @@
         <index>0</index>
         <colors>
           <rgb>
-            <red>0</red>
-            <green>0</green>
+            <red>12</red>
+            <green>36</green>
+            <blue>39</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>51</green>
             <blue>0</blue>
           </rgb>
           <rgb>
-            <red>2</red>
-            <green>18</green>
-            <blue>83</blue>
-          </rgb>
-          <rgb>
-            <red>0</red>
-            <green>174</green>
-            <blue>255</blue>
+            <red>106</red>
+            <green>190</green>
+            <blue>200</blue>
           </rgb>
           <rgb>
             <red>255</red>
@@ -6306,9 +6306,9 @@
             <blue>0</blue>
           </rgb>
           <rgb>
-            <red>2</red>
-            <green>18</green>
-            <blue>83</blue>
+            <red>0</red>
+            <green>45</green>
+            <blue>70</blue>
           </rgb>
           <rgb>
             <red>0</red>
@@ -6321,24 +6321,24 @@
             <blue>255</blue>
           </rgb>
           <rgb>
-            <red>16</red>
-            <green>16</green>
-            <blue>16</blue>
+            <red>25</red>
+            <green>25</green>
+            <blue>31</blue>
           </rgb>
           <rgb>
-            <red>12</red>
-            <green>34</green>
-            <blue>55</blue>
+            <red>68</red>
+            <green>75</green>
+            <blue>62</blue>
           </rgb>
           <rgb>
-            <red>108</red>
-            <green>119</green>
-            <blue>61</blue>
+            <red>133</red>
+            <green>128</green>
+            <blue>113</blue>
           </rgb>
           <rgb>
-            <red>0</red>
-            <green>53</green>
-            <blue>91</blue>
+            <red>182</red>
+            <green>183</green>
+            <blue>158</blue>
           </rgb>
           <rgb>
             <red>2</red>
@@ -6379,6 +6379,97 @@
             <red>255</red>
             <green>255</green>
             <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>71</int>
+      <palette>
+        <name>G red alert</name>
+        <numberOfColors>16</numberOfColors>
+        <index>71</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>53</red>
+            <green>52</green>
+            <blue>52</blue>
+          </rgb>
+          <rgb>
+            <red>235</red>
+            <green>33</green>
+            <blue>33</blue>
+          </rgb>
+          <rgb>
+            <red>235</red>
+            <green>33</green>
+            <blue>33</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>36</green>
+            <blue>39</blue>
+          </rgb>
+          <rgb>
+            <red>14</red>
+            <green>47</green>
+            <blue>51</blue>
+          </rgb>
+          <rgb>
+            <red>17</red>
+            <green>61</green>
+            <blue>67</blue>
+          </rgb>
+          <rgb>
+            <red>57</red>
+            <green>107</green>
+            <blue>117</blue>
+          </rgb>
+          <rgb>
+            <red>35</red>
+            <green>22</green>
+            <blue>14</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>0</green>
+            <blue>30</blue>
+          </rgb>
+          <rgb>
+            <red>250</red>
+            <green>222</green>
+            <blue>110</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>92</red>
+            <green>64</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>173</red>
+            <green>121</green>
+            <blue>49</blue>
+          </rgb>
+          <rgb>
+            <red>226</red>
+            <green>157</green>
+            <blue>61</blue>
           </rgb>
         </colors>
         <type>NORMAL</type>
@@ -7303,6 +7394,66 @@
       <maskNumber>0</maskNumber>
     </palMapping>
     <palMapping>
+      <palIndex>70</palIndex>
+      <durationInMillis>5670</durationInMillis>
+      <durationInFrames>0</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>G extraball (whitehouse explodes)</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4_play2</animationName>
+      <frameIndex>2923</frameIndex>
+      <frameSeqName>G extraball (whitehouse explodes)</frameSeqName>
+      <crc32>qyKTZg==</crc32>
+      <switchMode>REPLACE</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>70</palIndex>
+      <durationInMillis>2998147</durationInMillis>
+      <durationInFrames>74953</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>G extraball explodes</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4_play2</animationName>
+      <frameIndex>2992</frameIndex>
+      <frameSeqName>G extraball explodes</frameSeqName>
+      <crc32>edoMKw==</crc32>
+      <switchMode>REPLACE</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>70</palIndex>
+      <durationInMillis>98488</durationInMillis>
+      <durationInFrames>0</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>G extraball static 1/2</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4_play2</animationName>
+      <frameIndex>2952</frameIndex>
+      <frameSeqName>G extraball static 1/2</frameSeqName>
+      <crc32>QJhhOg==</crc32>
+      <switchMode>ADD</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>70</palIndex>
+      <durationInMillis>3987962</durationInMillis>
+      <durationInFrames>88933</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>G extraball static 2/2</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4_play2</animationName>
+      <frameIndex>2953</frameIndex>
+      <frameSeqName>G extraball static 2/2</frameSeqName>
+      <crc32>YbADPA==</crc32>
+      <switchMode>ADD</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
       <palIndex>30</palIndex>
       <durationInMillis>2683493</durationInMillis>
       <durationInFrames>73201</durationInFrames>
@@ -7631,6 +7782,21 @@
       <switchMode>REPLACE</switchMode>
       <withMask>true</withMask>
       <maskNumber>8</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>71</palIndex>
+      <durationInMillis>0</durationInMillis>
+      <durationInFrames>0</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>G red alert</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4_play2</animationName>
+      <frameIndex>3758</frameIndex>
+      <frameSeqName>G red alert</frameSeqName>
+      <crc32>BHjK+w==</crc32>
+      <switchMode>REPLACE</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
     </palMapping>
     <palMapping>
       <palIndex>55</palIndex>
@@ -7991,66 +8157,6 @@
       <switchMode>ADD</switchMode>
       <withMask>true</withMask>
       <maskNumber>6</maskNumber>
-    </palMapping>
-    <palMapping>
-      <palIndex>70</palIndex>
-      <durationInMillis>5670</durationInMillis>
-      <durationInFrames>0</durationInFrames>
-      <hashIndex>0</hashIndex>
-      <name>G extraball (whitehouse explodes)</name>
-      <animatisonIndex>0</animatisonIndex>
-      <animationName>id4_play2</animationName>
-      <frameIndex>2923</frameIndex>
-      <frameSeqName>G extraball (whitehouse explodes)</frameSeqName>
-      <crc32>qyKTZg==</crc32>
-      <switchMode>REPLACE</switchMode>
-      <withMask>false</withMask>
-      <maskNumber>0</maskNumber>
-    </palMapping>
-    <palMapping>
-      <palIndex>70</palIndex>
-      <durationInMillis>98488</durationInMillis>
-      <durationInFrames>0</durationInFrames>
-      <hashIndex>0</hashIndex>
-      <name>G extraball static 1/2</name>
-      <animatisonIndex>0</animatisonIndex>
-      <animationName>id4_play2</animationName>
-      <frameIndex>2952</frameIndex>
-      <frameSeqName>G extraball static 1/2</frameSeqName>
-      <crc32>QJhhOg==</crc32>
-      <switchMode>ADD</switchMode>
-      <withMask>false</withMask>
-      <maskNumber>0</maskNumber>
-    </palMapping>
-    <palMapping>
-      <palIndex>70</palIndex>
-      <durationInMillis>3987962</durationInMillis>
-      <durationInFrames>88933</durationInFrames>
-      <hashIndex>0</hashIndex>
-      <name>G extraball static 2/2</name>
-      <animatisonIndex>0</animatisonIndex>
-      <animationName>id4_play2</animationName>
-      <frameIndex>2953</frameIndex>
-      <frameSeqName>G extraball static 2/2</frameSeqName>
-      <crc32>YbADPA==</crc32>
-      <switchMode>ADD</switchMode>
-      <withMask>false</withMask>
-      <maskNumber>0</maskNumber>
-    </palMapping>
-    <palMapping>
-      <palIndex>70</palIndex>
-      <durationInMillis>2998147</durationInMillis>
-      <durationInFrames>0</durationInFrames>
-      <hashIndex>0</hashIndex>
-      <name>G extraball explodes</name>
-      <animatisonIndex>0</animatisonIndex>
-      <animationName>id4_play2</animationName>
-      <frameIndex>2992</frameIndex>
-      <frameSeqName>G extraball explodes</frameSeqName>
-      <crc32>edoMKw==</crc32>
-      <switchMode>REPLACE</switchMode>
-      <withMask>false</withMask>
-      <maskNumber>0</maskNumber>
     </palMapping>
   </palMappings>
   <scenes/>
@@ -8578,6 +8684,86 @@
           <name>G 20 million complete ramps 2/2</name>
           <pos>14490</pos>
         </bookmark>
+        <bookmark>
+          <name>G area 51 multiball radar anim</name>
+          <pos>14748</pos>
+        </bookmark>
+        <bookmark>
+          <name>G area 51 multiball anim transient</name>
+          <pos>14805</pos>
+        </bookmark>
+        <bookmark>
+          <name>G area 51 multiball mini-loop lit trargets</name>
+          <pos>14810</pos>
+        </bookmark>
+        <bookmark>
+          <name>G area 51 multiball mini-loop flashing t</name>
+          <pos>14853</pos>
+        </bookmark>
+        <bookmark>
+          <name>G area 51 multiball ball added</name>
+          <pos>15173</pos>
+        </bookmark>
+        <bookmark>
+          <name>G jackpot startanim</name>
+          <pos>15234</pos>
+        </bookmark>
+        <bookmark>
+          <name>G jackpot after startanim</name>
+          <pos>15249</pos>
+        </bookmark>
+        <bookmark>
+          <name>G replay startanim</name>
+          <pos>15752</pos>
+        </bookmark>
+        <bookmark>
+          <name>G replay static 1/2</name>
+          <pos>15781</pos>
+        </bookmark>
+        <bookmark>
+          <name>G replay static 2/2</name>
+          <pos>15782</pos>
+        </bookmark>
+        <bookmark>
+          <name>G replay postanim</name>
+          <pos>15794</pos>
+        </bookmark>
+        <bookmark>
+          <name>G area 51 total startanim</name>
+          <pos>16485</pos>
+        </bookmark>
+        <bookmark>
+          <name>G area 51 total static</name>
+          <pos>16508</pos>
+        </bookmark>
+        <bookmark>
+          <name>G area 51 total postanim</name>
+          <pos>16549</pos>
+        </bookmark>
+        <bookmark>
+          <name>G extra ball is lit startanim</name>
+          <pos>16881</pos>
+        </bookmark>
+        <bookmark>
+          <name>G extra ball is lit</name>
+          <pos>16903</pos>
+        </bookmark>
+        <bookmark>
+          <name>G loop combo startanim</name>
+          <pos>17060</pos>
+        </bookmark>
+        <bookmark>
+          <name>G loop combo static 1/2</name>
+          <pos>17076</pos>
+        </bookmark>
+        <bookmark>
+          <name>G loop combo static 2/2</name>
+          <pos>17077</pos>
+        </bookmark>
+        <bookmark>
+          <name>G 3x jackpots ready shoot left </name>
+          <pos>18566</pos>
+        </bookmark>
       </sorted-set>
     </entry>
     <entry>
@@ -8717,47 +8903,47 @@
           <pos>3367</pos>
         </bookmark>
         <bookmark>
-          <name>Scene 163</name>
+          <name>G area 51 multiball anim transient</name>
           <pos>3369</pos>
         </bookmark>
         <bookmark>
-          <name>Scene 164</name>
+          <name>G area 51 multiball mini-loop lit trargets</name>
           <pos>3371</pos>
         </bookmark>
         <bookmark>
-          <name>Scene 165</name>
+          <name>G area 51 multiball mini-loop flashing t</name>
           <pos>3373</pos>
         </bookmark>
         <bookmark>
-          <name>Scene 166</name>
+          <name>G area 51 multiball ball added</name>
           <pos>3375</pos>
         </bookmark>
         <bookmark>
-          <name>Scene 167</name>
+          <name>G jackpot startanim</name>
           <pos>3377</pos>
         </bookmark>
         <bookmark>
-          <name>Scene 168</name>
+          <name>G jackpot after startanim</name>
           <pos>3379</pos>
         </bookmark>
         <bookmark>
-          <name>Scene 169</name>
+          <name>G replay startanim</name>
           <pos>3381</pos>
         </bookmark>
         <bookmark>
-          <name>Scene 170</name>
+          <name>G replay static 1/2</name>
           <pos>3383</pos>
         </bookmark>
         <bookmark>
-          <name>Scene 171</name>
+          <name>G replay static 2/2</name>
           <pos>3385</pos>
         </bookmark>
         <bookmark>
-          <name>Scene 172</name>
+          <name>G replay postanim</name>
           <pos>3387</pos>
         </bookmark>
         <bookmark>
-          <name>Scene 173</name>
+          <name>G area 51 total startanim</name>
           <pos>3389</pos>
         </bookmark>
         <bookmark>
