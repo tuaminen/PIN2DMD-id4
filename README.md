@@ -1,3 +1,12 @@
+E50
+C102 / EA0 semi	085/DE3
+8B7
+
+
+
+after 10x bonus you get 50M bonus for completion
+50M => 25M
+
 x -bonus:
 -onko 4x anim kokonaan tallennettu? muissa 34 framea. 
 6x anim puuttuu (pelkkä 1 frame)
@@ -363,6 +372,8 @@ TRANSIENTS / transparency:
 f-18 hurry up grows -> rows -> bonus
 
 
+
+-during "area 51 multiball mini-loop", all animations fade out with "grow from center"
 
 any -> scroll from bottom -> keep shooting, ball saved 
 any -> scroll from bottom -> alien frenzy total

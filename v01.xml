@@ -11,6 +11,7 @@
     <string>D:\omat\pinball\editor\PIN2DMD-id4\id4_fat_lady.txt.gz</string>
     <string>D:\omat\pinball\editor\PIN2DMD-id4\id4_lock1_and_lock2.txt.gz</string>
     <string>D:\omat\pinball\editor\PIN2DMD-id4\id4_july.txt.gz</string>
+    <string>D:\omat\pinball\editor\PIN2DMD-id4\xx bonus.txt.gz</string>
   </inputFiles>
   <palettes/>
   <paletteMap>
@@ -8388,6 +8389,15 @@
         <bookmark>
           <name>ATT id4 credits</name>
           <pos>3179</pos>
+        </bookmark>
+      </sorted-set>
+    </entry>
+    <entry>
+      <string>xx bonus</string>
+      <sorted-set>
+        <bookmark>
+          <name>Scene 182</name>
+          <pos>390</pos>
         </bookmark>
       </sorted-set>
     </entry>
