@@ -1,3 +1,6 @@
+
+
+
 E50
 C102 / EA0 semi	085/DE3
 8B7
@@ -183,11 +186,11 @@ cut		area 51 multiball mini-loop = XXmil targets ...
 cut		ball added ship right-to-left anim ("transparent")
 cut		area 51 total startanim
 cut		area 51 total <score>
-cust	area 51 total postanim
+cut		area 51 total postanim
 		
 
 Alien ships:
-cut	10 million ship anim (hit 3 alien ships right to alien head)
+OK		10 million ship anim (hit 3 alien ships right to alien head)
 
 
 
@@ -300,13 +303,13 @@ Other:
 
 
 
-
-
 OK		<score>
 
 OK		alien ship left anim
 OK		alien ship right anim
 TODO	DANGER + TILT
+OK		Instant info (hold right flipper)
+OK		-""- end of ball bonus 1M
 
 
 "newstuff"	"highest score" "300000000"
@@ -350,7 +353,7 @@ TODO	SCORES
 TODO	5 million
 
 
-TODO	Instant info (hold right flipper)
+
 
 -------------------------------------------------------------------------------
 

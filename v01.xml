@@ -12,6 +12,7 @@
     <string>D:\omat\pinball\editor\PIN2DMD-id4\id4_lock1_and_lock2.txt.gz</string>
     <string>D:\omat\pinball\editor\PIN2DMD-id4\id4_july.txt.gz</string>
     <string>D:\omat\pinball\editor\PIN2DMD-id4\xx bonus.txt.gz</string>
+    <string>D:\omat\pinball\editor\PIN2DMD-id4\id4_instant_info.txt.gz</string>
   </inputFiles>
   <palettes/>
   <paletteMap>
@@ -6567,13 +6568,377 @@
         <type>NORMAL</type>
       </palette>
     </entry>
+    <entry>
+      <int>73</int>
+      <palette>
+        <name>10 million (ship anim)</name>
+        <numberOfColors>16</numberOfColors>
+        <index>73</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>10</red>
+            <green>40</green>
+            <blue>49</blue>
+          </rgb>
+          <rgb>
+            <red>7</red>
+            <green>89</green>
+            <blue>113</blue>
+          </rgb>
+          <rgb>
+            <red>21</red>
+            <green>29</green>
+            <blue>47</blue>
+          </rgb>
+          <rgb>
+            <red>81</red>
+            <green>90</green>
+            <blue>106</blue>
+          </rgb>
+          <rgb>
+            <red>145</red>
+            <green>156</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>18</red>
+            <green>209</green>
+            <blue>114</blue>
+          </rgb>
+          <rgb>
+            <red>23</red>
+            <green>64</green>
+            <blue>162</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>214</red>
+            <green>50</green>
+            <blue>39</blue>
+          </rgb>
+          <rgb>
+            <red>39</red>
+            <green>83</green>
+            <blue>172</blue>
+          </rgb>
+          <rgb>
+            <red>251</red>
+            <green>214</green>
+            <blue>219</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>74</int>
+      <palette>
+        <name>25 million anim</name>
+        <numberOfColors>16</numberOfColors>
+        <index>74</index>
+        <colors>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>10</red>
+            <green>40</green>
+            <blue>49</blue>
+          </rgb>
+          <rgb>
+            <red>7</red>
+            <green>89</green>
+            <blue>113</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>81</red>
+            <green>90</green>
+            <blue>106</blue>
+          </rgb>
+          <rgb>
+            <red>145</red>
+            <green>156</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>18</red>
+            <green>209</green>
+            <blue>114</blue>
+          </rgb>
+          <rgb>
+            <red>23</red>
+            <green>64</green>
+            <blue>162</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>214</red>
+            <green>50</green>
+            <blue>39</blue>
+          </rgb>
+          <rgb>
+            <red>39</red>
+            <green>83</green>
+            <blue>172</blue>
+          </rgb>
+          <rgb>
+            <red>251</red>
+            <green>214</green>
+            <blue>219</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>75</int>
+      <palette>
+        <name>end of ball bonus 1M</name>
+        <numberOfColors>16</numberOfColors>
+        <index>75</index>
+        <colors>
+          <rgb>
+            <red>218</red>
+            <green>36</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>216</red>
+            <green>149</green>
+            <blue>147</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>71</green>
+            <blue>118</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>249</red>
+            <green>249</green>
+            <blue>249</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>18</red>
+            <green>209</green>
+            <blue>114</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
+    <entry>
+      <int>76</int>
+      <palette>
+        <name>instant info</name>
+        <numberOfColors>16</numberOfColors>
+        <index>76</index>
+        <colors>
+          <rgb>
+            <red>218</red>
+            <green>36</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>216</red>
+            <green>149</green>
+            <blue>147</blue>
+          </rgb>
+          <rgb>
+            <red>136</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>71</green>
+            <blue>118</blue>
+          </rgb>
+          <rgb>
+            <red>4</red>
+            <green>106</green>
+            <blue>179</blue>
+          </rgb>
+          <rgb>
+            <red>249</red>
+            <green>249</green>
+            <blue>249</blue>
+          </rgb>
+          <rgb>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>12</red>
+            <green>136</green>
+            <blue>74</blue>
+          </rgb>
+          <rgb>
+            <red>18</red>
+            <green>209</green>
+            <blue>114</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>119</blue>
+          </rgb>
+          <rgb>
+            <red>119</red>
+            <green>119</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+          </rgb>
+          <rgb>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </rgb>
+        </colors>
+        <type>NORMAL</type>
+      </palette>
+    </entry>
   </paletteMap>
   <recordingNameMap/>
   <palMappings>
     <palMapping>
       <palIndex>10</palIndex>
-      <durationInMillis>459809</durationInMillis>
-      <durationInFrames>9560</durationInFrames>
+      <durationInMillis>426278</durationInMillis>
+      <durationInFrames>11495</durationInFrames>
       <hashIndex>0</hashIndex>
       <name> ATT add 1 coin 1 2</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6587,8 +6952,8 @@
     </palMapping>
     <palMapping>
       <palIndex>31</palIndex>
-      <durationInMillis>3116789</durationInMillis>
-      <durationInFrames>76176</durationInFrames>
+      <durationInMillis>3206907</durationInMillis>
+      <durationInFrames>77919</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT 20th century fox</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6602,8 +6967,8 @@
     </palMapping>
     <palMapping>
       <palIndex>43</palIndex>
-      <durationInMillis>2928441</durationInMillis>
-      <durationInFrames>73915</durationInFrames>
+      <durationInMillis>3018562</durationInMillis>
+      <durationInFrames>73211</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT BSMT 2000</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6617,8 +6982,8 @@
     </palMapping>
     <palMapping>
       <palIndex>11</palIndex>
-      <durationInMillis>3851108</durationInMillis>
-      <durationInFrames>19033</durationInFrames>
+      <durationInMillis>3941226</durationInMillis>
+      <durationInFrames>96277</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT Sega logo</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6632,8 +6997,8 @@
     </palMapping>
     <palMapping>
       <palIndex>10</palIndex>
-      <durationInMillis>459809</durationInMillis>
-      <durationInFrames>16321</durationInFrames>
+      <durationInMillis>426278</durationInMillis>
+      <durationInFrames>11495</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT add 1 coin 1</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6647,8 +7012,8 @@
     </palMapping>
     <palMapping>
       <palIndex>16</palIndex>
-      <durationInMillis>343843</durationInMillis>
-      <durationInFrames>13422</durationInFrames>
+      <durationInMillis>310312</durationInMillis>
+      <durationInFrames>8596</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT best value</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6662,8 +7027,8 @@
     </palMapping>
     <palMapping>
       <palIndex>42</palIndex>
-      <durationInMillis>2438481</durationInMillis>
-      <durationInFrames>67076</durationInFrames>
+      <durationInMillis>2525985</durationInMillis>
+      <durationInFrames>60962</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT cast Bill Pullan</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6677,8 +7042,8 @@
     </palMapping>
     <palMapping>
       <palIndex>42</palIndex>
-      <durationInMillis>2528740</durationInMillis>
-      <durationInFrames>69332</durationInFrames>
+      <durationInMillis>2616244</durationInMillis>
+      <durationInFrames>63218</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT cast Brent Spiner</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6692,8 +7057,8 @@
     </palMapping>
     <palMapping>
       <palIndex>42</palIndex>
-      <durationInMillis>4160515</durationInMillis>
-      <durationInFrames>95055</durationInFrames>
+      <durationInMillis>4250633</durationInMillis>
+      <durationInFrames>104012</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT cast Harvey Fierstein</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6707,8 +7072,8 @@
     </palMapping>
     <palMapping>
       <palIndex>42</palIndex>
-      <durationInMillis>4083162</durationInMillis>
-      <durationInFrames>93121</durationInFrames>
+      <durationInMillis>4173280</durationInMillis>
+      <durationInFrames>102079</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT cast Jeff Goldblum</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6722,8 +7087,8 @@
     </palMapping>
     <palMapping>
       <palIndex>42</palIndex>
-      <durationInMillis>165780</durationInMillis>
-      <durationInFrames>8971</durationInFrames>
+      <durationInMillis>132249</durationInMillis>
+      <durationInFrames>4144</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT cast Judd Hirsch</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6737,8 +7102,8 @@
     </palMapping>
     <palMapping>
       <palIndex>42</palIndex>
-      <durationInMillis>4121838</durationInMillis>
-      <durationInFrames>94088</durationInFrames>
+      <durationInMillis>4211956</durationInMillis>
+      <durationInFrames>103045</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT cast Margaret Colin</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6752,8 +7117,8 @@
     </palMapping>
     <palMapping>
       <palIndex>42</palIndex>
-      <durationInMillis>3969694</durationInMillis>
-      <durationInFrames>90285</durationInFrames>
+      <durationInMillis>4059812</durationInMillis>
+      <durationInFrames>99242</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT cast Mary McDonnell</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6767,8 +7132,8 @@
     </palMapping>
     <palMapping>
       <palIndex>42</palIndex>
-      <durationInMillis>4833323</durationInMillis>
-      <durationInFrames>109556</durationInFrames>
+      <durationInMillis>4920827</durationInMillis>
+      <durationInFrames>120833</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT cast Randy Quaid</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6782,8 +7147,8 @@
     </palMapping>
     <palMapping>
       <palIndex>42</palIndex>
-      <durationInMillis>5137505</durationInMillis>
-      <durationInFrames>117160</durationInFrames>
+      <durationInMillis>5227627</durationInMillis>
+      <durationInFrames>128437</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT cast Robert Loggia</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6797,8 +7162,8 @@
     </palMapping>
     <palMapping>
       <palIndex>42</palIndex>
-      <durationInMillis>3428540</durationInMillis>
-      <durationInFrames>83970</durationInFrames>
+      <durationInMillis>3518658</durationInMillis>
+      <durationInFrames>85713</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT cast Viveca Fox</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6812,8 +7177,8 @@
     </palMapping>
     <palMapping>
       <palIndex>42</palIndex>
-      <durationInMillis>2170404</durationInMillis>
-      <durationInFrames>60439</durationInFrames>
+      <durationInMillis>2134255</durationInMillis>
+      <durationInFrames>54260</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT cast Will Smith</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6827,8 +7192,8 @@
     </palMapping>
     <palMapping>
       <palIndex>9</palIndex>
-      <durationInMillis>4877246</durationInMillis>
-      <durationInFrames>9104</durationInFrames>
+      <durationInMillis>4964750</durationInMillis>
+      <durationInFrames>121931</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT credits 1/2 1</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6842,7 +7207,7 @@
     </palMapping>
     <palMapping>
       <palIndex>9</palIndex>
-      <durationInMillis>4877246</durationInMillis>
+      <durationInMillis>4964750</durationInMillis>
       <durationInFrames>9104</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT credits 1/2_1</name>
@@ -6857,8 +7222,8 @@
     </palMapping>
     <palMapping>
       <palIndex>9</palIndex>
-      <durationInMillis>2435864</durationInMillis>
-      <durationInFrames>110717</durationInFrames>
+      <durationInMillis>2523368</durationInMillis>
+      <durationInFrames>60896</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT credits x</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6872,8 +7237,8 @@
     </palMapping>
     <palMapping>
       <palIndex>9</palIndex>
-      <durationInMillis>4877246</durationInMillis>
-      <durationInFrames>73597</durationInFrames>
+      <durationInMillis>4964750</durationInMillis>
+      <durationInFrames>121931</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT credits x 1/2</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6887,8 +7252,8 @@
     </palMapping>
     <palMapping>
       <palIndex>43</palIndex>
-      <durationInMillis>4013584</durationInMillis>
-      <durationInFrames>91382</durationInFrames>
+      <durationInMillis>4103702</durationInMillis>
+      <durationInFrames>100339</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT digital sound system</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6902,8 +7267,8 @@
     </palMapping>
     <palMapping>
       <palIndex>15</palIndex>
-      <durationInMillis>4590939</durationInMillis>
-      <durationInFrames>103496</durationInFrames>
+      <durationInMillis>4681057</durationInMillis>
+      <durationInFrames>114773</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT enjoy this game</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6917,8 +7282,8 @@
     </palMapping>
     <palMapping>
       <palIndex>22</palIndex>
-      <durationInMillis>2949083</durationInMillis>
-      <durationInFrames>71276</durationInFrames>
+      <durationInMillis>3039204</durationInMillis>
+      <durationInFrames>73727</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT game over</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6932,8 +7297,8 @@
     </palMapping>
     <palMapping>
       <palIndex>41</palIndex>
-      <durationInMillis>723002</durationInMillis>
-      <durationInFrames>17493</durationInFrames>
+      <durationInMillis>686853</durationInMillis>
+      <durationInFrames>18075</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT id4 credits</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6947,8 +7312,8 @@
     </palMapping>
     <palMapping>
       <palIndex>12</palIndex>
-      <durationInMillis>2567415</durationInMillis>
-      <durationInFrames>63538</durationInFrames>
+      <durationInMillis>2654919</durationInMillis>
+      <durationInFrames>64185</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT id4 logo</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6962,8 +7327,8 @@
     </palMapping>
     <palMapping>
       <palIndex>33</palIndex>
-      <durationInMillis>645658</durationInMillis>
-      <durationInFrames>22321</durationInFrames>
+      <durationInMillis>609509</durationInMillis>
+      <durationInFrames>16141</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT in memory</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6977,8 +7342,8 @@
     </palMapping>
     <palMapping>
       <palIndex>32</palIndex>
-      <durationInMillis>333341</durationInMillis>
-      <durationInFrames>6398</durationInFrames>
+      <durationInMillis>299810</durationInMillis>
+      <durationInFrames>8333</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT insert coins</name>
       <animatisonIndex>0</animatisonIndex>
@@ -6992,8 +7357,8 @@
     </palMapping>
     <palMapping>
       <palIndex>14</palIndex>
-      <durationInMillis>4693987</durationInMillis>
-      <durationInFrames>106072</durationInFrames>
+      <durationInMillis>4784105</durationInMillis>
+      <durationInFrames>117349</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT just say no</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7007,8 +7372,8 @@
     </palMapping>
     <palMapping>
       <palIndex>12</palIndex>
-      <durationInMillis>3611505</durationInMillis>
-      <durationInFrames>84937</durationInFrames>
+      <durationInMillis>3701623</durationInMillis>
+      <durationInFrames>90287</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT push start</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7022,8 +7387,8 @@
     </palMapping>
     <palMapping>
       <palIndex>12</palIndex>
-      <durationInMillis>4871997</durationInMillis>
-      <durationInFrames>110588</durationInFrames>
+      <durationInMillis>4959501</durationInMillis>
+      <durationInFrames>121799</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT push start single</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7037,8 +7402,8 @@
     </palMapping>
     <palMapping>
       <palIndex>9</palIndex>
-      <durationInMillis>2686124</durationInMillis>
-      <durationInFrames>73267</durationInFrames>
+      <durationInMillis>2773628</durationInMillis>
+      <durationInFrames>67153</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT replay at</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7052,8 +7417,8 @@
     </palMapping>
     <palMapping>
       <palIndex>18</palIndex>
-      <durationInMillis>137278</durationInMillis>
-      <durationInFrames>8258</durationInFrames>
+      <durationInMillis>103747</durationInMillis>
+      <durationInFrames>3431</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT score scroll</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7067,8 +7432,8 @@
     </palMapping>
     <palMapping>
       <palIndex>18</palIndex>
-      <durationInMillis>2706816</durationInMillis>
-      <durationInFrames>73784</durationInFrames>
+      <durationInMillis>2794320</durationInMillis>
+      <durationInFrames>67670</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT score start</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7082,8 +7447,8 @@
     </palMapping>
     <palMapping>
       <palIndex>20</palIndex>
-      <durationInMillis>4882487</durationInMillis>
-      <durationInFrames>110784</durationInFrames>
+      <durationInMillis>4972609</durationInMillis>
+      <durationInFrames>122062</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT super jackpot</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7097,8 +7462,8 @@
     </palMapping>
     <palMapping>
       <palIndex>17</palIndex>
-      <durationInMillis>157970</durationInMillis>
-      <durationInFrames>8775</durationInFrames>
+      <durationInMillis>124439</durationInMillis>
+      <durationInFrames>3949</durationInFrames>
       <hashIndex>1</hashIndex>
       <name>ATT thanks to</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7112,8 +7477,8 @@
     </palMapping>
     <palMapping>
       <palIndex>21</palIndex>
-      <durationInMillis>3093569</durationInMillis>
-      <durationInFrames>75596</durationInFrames>
+      <durationInMillis>3183687</durationInMillis>
+      <durationInFrames>77339</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>ATT trendmasters</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7126,9 +7491,24 @@
       <maskNumber>0</maskNumber>
     </palMapping>
     <palMapping>
+      <palIndex>73</palIndex>
+      <durationInMillis>2175503</durationInMillis>
+      <durationInFrames>85519</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>G 10 million (ship anim)</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4_play2</animationName>
+      <frameIndex>334</frameIndex>
+      <frameSeqName>G 10 million (ship anim)</frameSeqName>
+      <crc32>ZC1mFQ==</crc32>
+      <switchMode>REPLACE</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
       <palIndex>0</palIndex>
-      <durationInMillis>4879867</durationInMillis>
-      <durationInFrames>110719</durationInFrames>
+      <durationInMillis>4967371</durationInMillis>
+      <durationInFrames>121996</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 10 million 1/3</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7142,8 +7522,8 @@
     </palMapping>
     <palMapping>
       <palIndex>0</palIndex>
-      <durationInMillis>338588</durationInMillis>
-      <durationInFrames>13291</durationInFrames>
+      <durationInMillis>305057</durationInMillis>
+      <durationInFrames>8464</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 10 million 2/3</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7157,8 +7537,8 @@
     </palMapping>
     <palMapping>
       <palIndex>0</palIndex>
-      <durationInMillis>2477155</durationInMillis>
-      <durationInFrames>68043</durationInFrames>
+      <durationInMillis>2564659</durationInMillis>
+      <durationInFrames>61928</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 10 million 3/3</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7172,8 +7552,8 @@
     </palMapping>
     <palMapping>
       <palIndex>53</palIndex>
-      <durationInMillis>341208</durationInMillis>
-      <durationInFrames>13356</durationInFrames>
+      <durationInMillis>307677</durationInMillis>
+      <durationInFrames>8530</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 10 million complete ramps 1/2</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7187,8 +7567,8 @@
     </palMapping>
     <palMapping>
       <palIndex>0</palIndex>
-      <durationInMillis>632684</durationInMillis>
-      <durationInFrames>21996</durationInFrames>
+      <durationInMillis>599153</durationInMillis>
+      <durationInFrames>15817</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 10 million transient anim</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7202,8 +7582,8 @@
     </palMapping>
     <palMapping>
       <palIndex>72</palIndex>
-      <durationInMillis>4243072</durationInMillis>
-      <durationInFrames>0</durationInFrames>
+      <durationInMillis>4333190</durationInMillis>
+      <durationInFrames>106076</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 10x bonus</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7217,8 +7597,8 @@
     </palMapping>
     <palMapping>
       <palIndex>54</palIndex>
-      <durationInMillis>555271</durationInMillis>
-      <durationInFrames>18708</durationInFrames>
+      <durationInMillis>521740</durationInMillis>
+      <durationInFrames>13881</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 20 million complete ramps 1/2</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7231,9 +7611,9 @@
       <maskNumber>6</maskNumber>
     </palMapping>
     <palMapping>
-      <palIndex>65</palIndex>
-      <durationInMillis>3619273</durationInMillis>
-      <durationInFrames>85131</durationInFrames>
+      <palIndex>74</palIndex>
+      <durationInMillis>3709391</durationInMillis>
+      <durationInFrames>90481</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 25 million anim</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7247,8 +7627,8 @@
     </palMapping>
     <palMapping>
       <palIndex>72</palIndex>
-      <durationInMillis>3760944</durationInMillis>
-      <durationInFrames>0</durationInFrames>
+      <durationInMillis>3851062</durationInMillis>
+      <durationInFrames>94023</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 2x bonus</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7262,8 +7642,8 @@
     </palMapping>
     <palMapping>
       <palIndex>0</palIndex>
-      <durationInMillis>330721</durationInMillis>
-      <durationInFrames>13094</durationInFrames>
+      <durationInMillis>297190</durationInMillis>
+      <durationInFrames>8268</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 5 million 1/2 </name>
       <animatisonIndex>0</animatisonIndex>
@@ -7277,8 +7657,8 @@
     </palMapping>
     <palMapping>
       <palIndex>0</palIndex>
-      <durationInMillis>2211652</durationInMillis>
-      <durationInFrames>61470</durationInFrames>
+      <durationInMillis>2299156</durationInMillis>
+      <durationInFrames>55291</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 5 million 2/2</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7292,8 +7672,8 @@
     </palMapping>
     <palMapping>
       <palIndex>59</palIndex>
-      <durationInMillis>4201769</durationInMillis>
-      <durationInFrames>96086</durationInFrames>
+      <durationInMillis>4291887</durationInMillis>
+      <durationInFrames>105044</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 5 million alien slime</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7307,8 +7687,8 @@
     </palMapping>
     <palMapping>
       <palIndex>56</palIndex>
-      <durationInMillis>550020</durationInMillis>
-      <durationInFrames>0</durationInFrames>
+      <durationInMillis>516489</durationInMillis>
+      <durationInFrames>13750</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 5 million complete ramps</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7322,8 +7702,8 @@
     </palMapping>
     <palMapping>
       <palIndex>0</palIndex>
-      <durationInMillis>2600931</durationInMillis>
-      <durationInFrames>95373</durationInFrames>
+      <durationInMillis>2688435</durationInMillis>
+      <durationInFrames>65023</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 5 million transient anim</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7337,8 +7717,8 @@
     </palMapping>
     <palMapping>
       <palIndex>59</palIndex>
-      <durationInMillis>4526454</durationInMillis>
-      <durationInFrames>0</durationInFrames>
+      <durationInMillis>4616572</durationInMillis>
+      <durationInFrames>113161</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 5million alien slime alternative</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7352,8 +7732,8 @@
     </palMapping>
     <palMapping>
       <palIndex>72</palIndex>
-      <durationInMillis>3418153</durationInMillis>
-      <durationInFrames>42380</durationInFrames>
+      <durationInMillis>3508271</durationInMillis>
+      <durationInFrames>85453</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 6x bonus</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7367,8 +7747,8 @@
     </palMapping>
     <palMapping>
       <palIndex>72</palIndex>
-      <durationInMillis>3467213</durationInMillis>
-      <durationInFrames>0</durationInFrames>
+      <durationInMillis>3557331</durationInMillis>
+      <durationInFrames>86680</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G 8x bonus</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7382,8 +7762,8 @@
     </palMapping>
     <palMapping>
       <palIndex>46</palIndex>
-      <durationInMillis>4874622</durationInMillis>
-      <durationInFrames>83695</durationInFrames>
+      <durationInMillis>4962126</durationInMillis>
+      <durationInFrames>121865</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G F-18 hurryup grows</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7397,8 +7777,8 @@
     </palMapping>
     <palMapping>
       <palIndex>52</palIndex>
-      <durationInMillis>4010946</durationInMillis>
-      <durationInFrames>0</durationInFrames>
+      <durationInMillis>4101064</durationInMillis>
+      <durationInFrames>100273</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G X alien(s) Y more for extra ball</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7412,8 +7792,8 @@
     </palMapping>
     <palMapping>
       <palIndex>30</palIndex>
-      <durationInMillis>134661</durationInMillis>
-      <durationInFrames>7550</durationInFrames>
+      <durationInMillis>101130</durationInMillis>
+      <durationInFrames>3366</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G alien bonus</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7427,8 +7807,8 @@
     </palMapping>
     <palMapping>
       <palIndex>67</palIndex>
-      <durationInMillis>4456878</durationInMillis>
-      <durationInFrames>100080</durationInFrames>
+      <durationInMillis>4546996</durationInMillis>
+      <durationInFrames>111421</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G alien ship explosion</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7442,8 +7822,8 @@
     </palMapping>
     <palMapping>
       <palIndex>57</palIndex>
-      <durationInMillis>5225146</durationInMillis>
-      <durationInFrames>117547</durationInFrames>
+      <durationInMillis>5315268</durationInMillis>
+      <durationInFrames>130628</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G alien ship left anim</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7457,8 +7837,8 @@
     </palMapping>
     <palMapping>
       <palIndex>58</palIndex>
-      <durationInMillis>686900</durationInMillis>
-      <durationInFrames>0</durationInFrames>
+      <durationInMillis>650751</durationInMillis>
+      <durationInFrames>17172</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G alien ship right anim</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7472,8 +7852,8 @@
     </palMapping>
     <palMapping>
       <palIndex>30</palIndex>
-      <durationInMillis>2167785</durationInMillis>
-      <durationInFrames>75961</durationInFrames>
+      <durationInMillis>2131636</durationInMillis>
+      <durationInFrames>54194</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G area 51 bonus</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7487,8 +7867,8 @@
     </palMapping>
     <palMapping>
       <palIndex>36</palIndex>
-      <durationInMillis>3907853</durationInMillis>
-      <durationInFrames>88933</durationInFrames>
+      <durationInMillis>3997971</durationInMillis>
+      <durationInFrames>97696</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G ball saved</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7533,7 +7913,7 @@
     <palMapping>
       <palIndex>70</palIndex>
       <durationInMillis>5686</durationInMillis>
-      <durationInFrames>0</durationInFrames>
+      <durationInFrames>142</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G extraball (whitehouse explodes)</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7547,8 +7927,8 @@
     </palMapping>
     <palMapping>
       <palIndex>70</palIndex>
-      <durationInMillis>3070303</durationInMillis>
-      <durationInFrames>74953</durationInFrames>
+      <durationInMillis>3160424</durationInMillis>
+      <durationInFrames>76757</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G extraball explodes</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7563,7 +7943,7 @@
     <palMapping>
       <palIndex>70</palIndex>
       <durationInMillis>98504</durationInMillis>
-      <durationInFrames>0</durationInFrames>
+      <durationInFrames>2462</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G extraball static 1/2</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7577,8 +7957,8 @@
     </palMapping>
     <palMapping>
       <palIndex>70</palIndex>
-      <durationInMillis>4240446</durationInMillis>
-      <durationInFrames>88933</durationInFrames>
+      <durationInMillis>4330564</durationInMillis>
+      <durationInFrames>106011</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G extraball static 2/2</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7592,8 +7972,8 @@
     </palMapping>
     <palMapping>
       <palIndex>30</palIndex>
-      <durationInMillis>2683509</durationInMillis>
-      <durationInFrames>73201</durationInFrames>
+      <durationInMillis>2771013</durationInMillis>
+      <durationInFrames>67087</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G id4 bonus</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7607,8 +7987,8 @@
     </palMapping>
     <palMapping>
       <palIndex>0</palIndex>
-      <durationInMillis>557906</durationInMillis>
-      <durationInFrames>18774</durationInFrames>
+      <durationInMillis>524375</durationInMillis>
+      <durationInFrames>13947</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G jackpot ready shoot inside head</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7622,8 +8002,8 @@
     </palMapping>
     <palMapping>
       <palIndex>65</palIndex>
-      <durationInMillis>4825487</durationInMillis>
-      <durationInFrames>109360</durationInFrames>
+      <durationInMillis>4912991</durationInMillis>
+      <durationInFrames>120637</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G july 3</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7637,8 +8017,8 @@
     </palMapping>
     <palMapping>
       <palIndex>65</palIndex>
-      <durationInMillis>4828099</durationInMillis>
-      <durationInFrames>109425</durationInFrames>
+      <durationInMillis>4915603</durationInMillis>
+      <durationInFrames>120702</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G july 4</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7652,8 +8032,8 @@
     </palMapping>
     <palMapping>
       <palIndex>65</palIndex>
-      <durationInMillis>163162</durationInMillis>
-      <durationInFrames>8905</durationInFrames>
+      <durationInMillis>129631</durationInMillis>
+      <durationInFrames>4079</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G july 4 later</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7667,8 +8047,8 @@
     </palMapping>
     <palMapping>
       <palIndex>65</palIndex>
-      <durationInMillis>4830711</durationInMillis>
-      <durationInFrames>109490</durationInFrames>
+      <durationInMillis>4918215</durationInMillis>
+      <durationInFrames>120767</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G july 5</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7682,8 +8062,8 @@
     </palMapping>
     <palMapping>
       <palIndex>29</palIndex>
-      <durationInMillis>462429</durationInMillis>
-      <durationInFrames>16387</durationInFrames>
+      <durationInMillis>428898</durationInMillis>
+      <durationInFrames>11560</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G lock 1 lit</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7697,8 +8077,8 @@
     </palMapping>
     <palMapping>
       <palIndex>64</palIndex>
-      <durationInMillis>3420767</durationInMillis>
-      <durationInFrames>83776</durationInFrames>
+      <durationInMillis>3510885</durationInMillis>
+      <durationInFrames>85519</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G lock 1 pre-repeat</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7712,8 +8092,8 @@
     </palMapping>
     <palMapping>
       <palIndex>64</palIndex>
-      <durationInMillis>2611286</durationInMillis>
-      <durationInFrames>71396</durationInFrames>
+      <durationInMillis>2698790</durationInMillis>
+      <durationInFrames>65282</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G lock 1 repeating</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7727,8 +8107,8 @@
     </palMapping>
     <palMapping>
       <palIndex>29</palIndex>
-      <durationInMillis>3039295</durationInMillis>
-      <durationInFrames>74690</durationInFrames>
+      <durationInMillis>3129416</durationInMillis>
+      <durationInFrames>75982</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G lock 1&amp;2 list start 1/2</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7742,8 +8122,8 @@
     </palMapping>
     <palMapping>
       <palIndex>29</palIndex>
-      <durationInMillis>3905225</durationInMillis>
-      <durationInFrames>88673</durationInFrames>
+      <durationInMillis>3995343</durationInMillis>
+      <durationInFrames>97630</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G lock 1&amp;2 lit start 2/2</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7757,8 +8137,8 @@
     </palMapping>
     <palMapping>
       <palIndex>66</palIndex>
-      <durationInMillis>4333237</durationInMillis>
-      <durationInFrames>97053</durationInFrames>
+      <durationInMillis>4423355</durationInMillis>
+      <durationInFrames>108330</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G lock 2 lit</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7772,8 +8152,8 @@
     </palMapping>
     <palMapping>
       <palIndex>63</palIndex>
-      <durationInMillis>452036</durationInMillis>
-      <durationInFrames>16127</durationInFrames>
+      <durationInMillis>418505</durationInMillis>
+      <durationInFrames>11300</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G lock 2 pre-repeat</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7787,8 +8167,8 @@
     </palMapping>
     <palMapping>
       <palIndex>63</palIndex>
-      <durationInMillis>4570292</durationInMillis>
-      <durationInFrames>102980</durationInFrames>
+      <durationInMillis>4660410</durationInMillis>
+      <durationInFrames>114257</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G lock 2 repeating</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7802,8 +8182,8 @@
     </palMapping>
     <palMapping>
       <palIndex>63</palIndex>
-      <durationInMillis>4773895</durationInMillis>
-      <durationInFrames>108070</durationInFrames>
+      <durationInMillis>4861399</durationInMillis>
+      <durationInFrames>119347</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G lock common 1st frame</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7817,8 +8197,8 @@
     </palMapping>
     <palMapping>
       <palIndex>61</palIndex>
-      <durationInMillis>2214271</durationInMillis>
-      <durationInFrames>61536</durationInFrames>
+      <durationInMillis>2301775</durationInMillis>
+      <durationInFrames>55356</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G lock common start</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7832,8 +8212,8 @@
     </palMapping>
     <palMapping>
       <palIndex>27</palIndex>
-      <durationInMillis>335961</durationInMillis>
-      <durationInFrames>13225</durationInFrames>
+      <durationInMillis>302430</durationInMillis>
+      <durationInFrames>8399</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G multball ready single</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7847,8 +8227,8 @@
     </palMapping>
     <palMapping>
       <palIndex>28</palIndex>
-      <durationInMillis>3119413</durationInMillis>
-      <durationInFrames>76242</durationInFrames>
+      <durationInMillis>3209531</durationInMillis>
+      <durationInFrames>77985</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G multiball</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7861,24 +8241,9 @@
       <maskNumber>0</maskNumber>
     </palMapping>
     <palMapping>
-      <palIndex>26</palIndex>
-      <durationInMillis>101130</durationInMillis>
-      <durationInFrames>6001</durationInFrames>
-      <hashIndex>0</hashIndex>
-      <name>G one more hit for lock lit</name>
-      <animatisonIndex>0</animatisonIndex>
-      <animationName>id4_play</animationName>
-      <frameIndex>3290</frameIndex>
-      <frameSeqName>G one more hit for lock lit</frameSeqName>
-      <crc32>ZC1mFQ==</crc32>
-      <switchMode>ADD</switchMode>
-      <withMask>false</withMask>
-      <maskNumber>0</maskNumber>
-    </palMapping>
-    <palMapping>
       <palIndex>51</palIndex>
-      <durationInMillis>5134883</durationInMillis>
-      <durationInFrames>117094</durationInFrames>
+      <durationInMillis>5225005</durationInMillis>
+      <durationInFrames>128372</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G pop bumper score</name>
       <animatisonIndex>0</animatisonIndex>
@@ -7907,7 +8272,7 @@
     </palMapping>
     <palMapping>
       <palIndex>51</palIndex>
-      <durationInMillis>1861196</durationInMillis>
+      <durationInMillis>1825047</durationInMillis>
       <durationInFrames>52709</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G pop bumper score start anim</name>
@@ -7922,7 +8287,7 @@
     </palMapping>
     <palMapping>
       <palIndex>71</palIndex>
-      <durationInMillis>2709435</durationInMillis>
+      <durationInMillis>2796939</durationInMillis>
       <durationInFrames>0</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G red alert</name>
@@ -7937,7 +8302,7 @@
     </palMapping>
     <palMapping>
       <palIndex>55</palIndex>
-      <durationInMillis>2680898</durationInMillis>
+      <durationInMillis>2768402</durationInMillis>
       <durationInFrames>8</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G score</name>
@@ -7952,7 +8317,7 @@
     </palMapping>
     <palMapping>
       <palIndex>45</palIndex>
-      <durationInMillis>204454</durationInMillis>
+      <durationInMillis>170923</durationInMillis>
       <durationInFrames>9938</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G shoot again</name>
@@ -7967,7 +8332,7 @@
     </palMapping>
     <palMapping>
       <palIndex>24</palIndex>
-      <durationInMillis>2425515</durationInMillis>
+      <durationInMillis>2513019</durationInMillis>
       <durationInFrames>66817</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G skill shot 20M</name>
@@ -7982,7 +8347,7 @@
     </palMapping>
     <palMapping>
       <palIndex>25</palIndex>
-      <durationInMillis>2263244</durationInMillis>
+      <durationInMillis>2350748</durationInMillis>
       <durationInFrames>62760</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G skill shot anim</name>
@@ -7997,7 +8362,7 @@
     </palMapping>
     <palMapping>
       <palIndex>25</palIndex>
-      <durationInMillis>2688741</durationInMillis>
+      <durationInMillis>2776245</durationInMillis>
       <durationInFrames>73332</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G skill shot hit anim</name>
@@ -8012,7 +8377,7 @@
     </palMapping>
     <palMapping>
       <palIndex>23</palIndex>
-      <durationInMillis>2781575</durationInMillis>
+      <durationInMillis>2869079</durationInMillis>
       <durationInFrames>73850</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G skill shot miss</name>
@@ -8027,7 +8392,7 @@
     </palMapping>
     <palMapping>
       <palIndex>34</palIndex>
-      <durationInMillis>3557377</durationInMillis>
+      <durationInMillis>3647495</durationInMillis>
       <durationInFrames>6839</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G start planet ship roll</name>
@@ -8042,7 +8407,7 @@
     </palMapping>
     <palMapping>
       <palIndex>12</palIndex>
-      <durationInMillis>3041924</durationInMillis>
+      <durationInMillis>3132045</durationInMillis>
       <durationInFrames>74821</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G start2 independence day</name>
@@ -8057,7 +8422,7 @@
     </palMapping>
     <palMapping>
       <palIndex>30</palIndex>
-      <durationInMillis>552654</durationInMillis>
+      <durationInMillis>519123</durationInMillis>
       <durationInFrames>18643</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G total bonus</name>
@@ -8072,7 +8437,7 @@
     </palMapping>
     <palMapping>
       <palIndex>48</palIndex>
-      <durationInMillis>568268</durationInMillis>
+      <durationInMillis>534737</durationInMillis>
       <durationInFrames>20386</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G virus 100%</name>
@@ -8087,7 +8452,7 @@
     </palMapping>
     <palMapping>
       <palIndex>49</palIndex>
-      <durationInMillis>289471</durationInMillis>
+      <durationInMillis>255940</durationInMillis>
       <durationInFrames>12063</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G virus 100% end anim</name>
@@ -8102,7 +8467,7 @@
     </palMapping>
     <palMapping>
       <palIndex>48</palIndex>
-      <durationInMillis>2479775</durationInMillis>
+      <durationInMillis>2567279</durationInMillis>
       <durationInFrames>68108</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G virus 20%</name>
@@ -8117,7 +8482,7 @@
     </palMapping>
     <palMapping>
       <palIndex>48</palIndex>
-      <durationInMillis>5176181</durationInMillis>
+      <durationInMillis>5266303</durationInMillis>
       <durationInFrames>118127</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G virus 40%</name>
@@ -8132,7 +8497,7 @@
     </palMapping>
     <palMapping>
       <palIndex>48</palIndex>
-      <durationInMillis>2631933</durationInMillis>
+      <durationInMillis>2719437</durationInMillis>
       <durationInFrames>106718</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G virus 60%</name>
@@ -8147,7 +8512,7 @@
     </palMapping>
     <palMapping>
       <palIndex>48</palIndex>
-      <durationInMillis>4776522</durationInMillis>
+      <durationInMillis>4864026</durationInMillis>
       <durationInFrames>108135</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G virus 80%</name>
@@ -8162,7 +8527,7 @@
     </palMapping>
     <palMapping>
       <palIndex>47</palIndex>
-      <durationInMillis>2113652</durationInMillis>
+      <durationInMillis>2077503</durationInMillis>
       <durationInFrames>59020</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>G virus negotiating with host</name>
@@ -8177,14 +8542,14 @@
     </palMapping>
     <palMapping>
       <palIndex>39</palIndex>
-      <durationInMillis>3090952</durationInMillis>
+      <durationInMillis>2871700</durationInMillis>
       <durationInFrames>75530</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>INIT checksum</name>
       <animatisonIndex>0</animatisonIndex>
       <animationName>id4_attract</animationName>
       <frameIndex>68</frameIndex>
-      <frameSeqName>INIT checksum</frameSeqName>
+      <frameSeqName>1NIT checksum</frameSeqName>
       <crc32>OtkKrw==</crc32>
       <switchMode>ADD</switchMode>
       <withMask>true</withMask>
@@ -8192,14 +8557,14 @@
     </palMapping>
     <palMapping>
       <palIndex>40</palIndex>
-      <durationInMillis>643040</durationInMillis>
+      <durationInMillis>4969991</durationInMillis>
       <durationInFrames>22255</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>INIT location </name>
       <animatisonIndex>0</animatisonIndex>
       <animationName>id4_attract</animationName>
       <frameIndex>69</frameIndex>
-      <frameSeqName>INIT location </frameSeqName>
+      <frameSeqName>1NIT location </frameSeqName>
       <crc32>xueY7A==</crc32>
       <switchMode>ADD</switchMode>
       <withMask>true</withMask>
@@ -8207,14 +8572,14 @@
     </palMapping>
     <palMapping>
       <palIndex>19</palIndex>
-      <durationInMillis>4771281</durationInMillis>
+      <durationInMillis>3181073</durationInMillis>
       <durationInFrames>108004</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>INIT start</name>
       <animatisonIndex>0</animatisonIndex>
       <animationName>id4</animationName>
       <frameIndex>0</frameIndex>
-      <frameSeqName>INIT start</frameSeqName>
+      <frameSeqName>1NIT start</frameSeqName>
       <crc32>fQwi+Q==</crc32>
       <switchMode>ADD</switchMode>
       <withMask>true</withMask>
@@ -8222,7 +8587,7 @@
     </palMapping>
     <palMapping>
       <palIndex>68</palIndex>
-      <durationInMillis>2784196</durationInMillis>
+      <durationInMillis>2874317</durationInMillis>
       <durationInFrames>45947</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>KeyFrame POST match calc2</name>
@@ -8237,7 +8602,7 @@
     </palMapping>
     <palMapping>
       <palIndex>37</palIndex>
-      <durationInMillis>2959425</durationInMillis>
+      <durationInMillis>3049546</durationInMillis>
       <durationInFrames>71534</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>KeyFrame POST match start</name>
@@ -8267,7 +8632,7 @@
     </palMapping>
     <palMapping>
       <palIndex>69</palIndex>
-      <durationInMillis>1879279</durationInMillis>
+      <durationInMillis>1843130</durationInMillis>
       <durationInFrames>53161</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>POST fat lady sings</name>
@@ -8282,7 +8647,7 @@
     </palMapping>
     <palMapping>
       <palIndex>44</palIndex>
-      <durationInMillis>155348</durationInMillis>
+      <durationInMillis>121817</durationInMillis>
       <durationInFrames>1948</durationInFrames>
       <hashIndex>0</hashIndex>
       <name>POST initial entry</name>
@@ -8294,6 +8659,36 @@
       <switchMode>ADD</switchMode>
       <withMask>true</withMask>
       <maskNumber>6</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>76</palIndex>
+      <durationInMillis>0</durationInMillis>
+      <durationInFrames>0</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>INFO instant info</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4_instant_info</animationName>
+      <frameIndex>210</frameIndex>
+      <frameSeqName>INFO instant info</frameSeqName>
+      <crc32>saeo/w==</crc32>
+      <switchMode>ADD</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
+    </palMapping>
+    <palMapping>
+      <palIndex>15</palIndex>
+      <durationInMillis>0</durationInMillis>
+      <durationInFrames>0</durationInFrames>
+      <hashIndex>0</hashIndex>
+      <name>INFO instant info end of ball bonus 1M</name>
+      <animatisonIndex>0</animatisonIndex>
+      <animationName>id4_instant_info</animationName>
+      <frameIndex>269</frameIndex>
+      <frameSeqName>INFO end of ball bonus 1M</frameSeqName>
+      <crc32>bKedpA==</crc32>
+      <switchMode>ADD</switchMode>
+      <withMask>false</withMask>
+      <maskNumber>0</maskNumber>
     </palMapping>
   </palMappings>
   <scenes/>
@@ -8319,11 +8714,11 @@
       <string>id4_attract</string>
       <sorted-set>
         <bookmark>
-          <name>INIT checksum</name>
+          <name>1NIT checksum</name>
           <pos>68</pos>
         </bookmark>
         <bookmark>
-          <name>INIT location </name>
+          <name>1NIT location </name>
           <pos>69</pos>
         </bookmark>
         <bookmark>
@@ -8396,7 +8791,7 @@
       <string>xx bonus</string>
       <sorted-set>
         <bookmark>
-          <name>Scene 182</name>
+          <name>G lock eyes (x more for lock lit)</name>
           <pos>390</pos>
         </bookmark>
       </sorted-set>
@@ -8415,10 +8810,23 @@
       </sorted-set>
     </entry>
     <entry>
+      <string>id4_instant_info</string>
+      <sorted-set>
+        <bookmark>
+          <name>INFO instant info</name>
+          <pos>210</pos>
+        </bookmark>
+        <bookmark>
+          <name>INFO end of ball bonus 1M</name>
+          <pos>269</pos>
+        </bookmark>
+      </sorted-set>
+    </entry>
+    <entry>
       <string>id4</string>
       <sorted-set>
         <bookmark>
-          <name>INIT start</name>
+          <name>1NIT start</name>
           <pos>0</pos>
         </bookmark>
         <bookmark>
@@ -8491,7 +8899,7 @@
           <pos>288</pos>
         </bookmark>
         <bookmark>
-          <name>G 10 million</name>
+          <name>G 10 million (ship anim)</name>
           <pos>334</pos>
         </bookmark>
         <bookmark>
@@ -8709,6 +9117,10 @@
         <bookmark>
           <name>G 8x bonus</name>
           <pos>4250</pos>
+        </bookmark>
+        <bookmark>
+          <name>G lock eyes (X more for lock lit)</name>
+          <pos>4394</pos>
         </bookmark>
         <bookmark>
           <name>G 1 more hit for lock lit</name>
@@ -9015,6 +9427,14 @@
         <bookmark>
           <name>G one more hit for lock lit</name>
           <pos>3290</pos>
+        </bookmark>
+        <bookmark>
+          <name>G lock eyes (x more for lock lit)</name>
+          <pos>3294</pos>
+        </bookmark>
+        <bookmark>
+          <name>G 1 more hit for lock lit static</name>
+          <pos>3302</pos>
         </bookmark>
         <bookmark>
           <name>G bonus after ball</name>
