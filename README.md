@@ -1,3 +1,16 @@
+Testaa:
+BUGS	trendmasters id4 toys available
+-testaa enter inits timeout
+-testaa 2x bonus
+
+10 million anim
+25 million anim
+"10 million" + alkuanim
+
+
+-Free play alku-ammus
+
+
 
 
 
@@ -50,7 +63,6 @@ attraction mode loppuun:
 
 
 
-Credit 1 scrollaa alhaalta kun laittaa rahaa
 
 
 
@@ -120,8 +132,9 @@ OK		score: #1..#6 regular
 OK		SEGA logo
 OK		id4 super jackpot
 OK		thanks to
-UGLY	special thanks to trendmasters				TODO
+OK		special thanks to trendmasters			
 BUGS	trendmasters id4 toys available
+TODO	in memory of donald
 
 tutki allaolevat
 OK		<score>	
@@ -130,7 +143,7 @@ OK		<score>
 buggy	CREDIT x 
 TODO 	CREDIT x 1/2  onko tätä?
 
-TODO	in memory of donald
+
 
 -------------------------------------------------------------------------------
 
@@ -221,7 +234,6 @@ OK		july 4 (later)
 OK		july 5
 OK		25 million
 
-
 Pop bumpers:
 OK		pop bumper score
 
@@ -300,14 +312,13 @@ cut 	replay postanim
 
 
 Other:
-
-
-
+TODO	free play
+TODO	DANGER + TILT
+TODO	PLAYER x up
 OK		<score>
-
+TODO	multiplayer <scores>
 OK		alien ship left anim
 OK		alien ship right anim
-TODO	DANGER + TILT
 OK		Instant info (hold right flipper)
 OK		-""- end of ball bonus 1M
 
@@ -332,21 +343,9 @@ TODO 	ramp complete + left ramp
 
 
 
-
-
-
-
 50 million alien slime
 
 TODO	"special"
-
-
-TODO	PLAYER x up
-
-
-
-
-TODO	SCORES
 
 
 
@@ -363,7 +362,6 @@ OK		fat lady sings
 OK		initials entry
 OK		match							colorize ending better
 
-
 -------------------------------------------------------------------------------
 
 TRANSIENTS / transparency:
@@ -375,6 +373,7 @@ TRANSIENTS / transparency:
 f-18 hurry up grows -> rows -> bonus
 
 
+Credit 1 scrollaa alhaalta kun laittaa rahaa
 
 -during "area 51 multiball mini-loop", all animations fade out with "grow from center"
 
