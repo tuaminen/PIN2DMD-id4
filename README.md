@@ -1,11 +1,9 @@
 Testaa:
-BUGS	trendmasters id4 toys available
+-milton
 -testaa enter inits timeout
--testaa 2x bonus
 
-10 million anim
 25 million anim
-"10 million" + alkuanim
+
 
 
 -Free play alku-ammus
@@ -130,11 +128,12 @@ OK		PUSH start (single + anim)
 OK		replay at
 OK		score: #1..#6 regular
 OK		SEGA logo
-OK		id4 super jackpot
+UGLY	id4 super jackpot
 OK		thanks to
 OK		special thanks to trendmasters			
 BUGS	trendmasters id4 toys available
-TODO	in memory of donald
+TODO	in memory of donald mcmillin
+TODO	free play
 
 tutki allaolevat
 OK		<score>	
@@ -213,7 +212,7 @@ OK		5 million (large flashing, with borders)
 OK		10 million, complete ramps for red alert
 cut		10 million, complete this ramp for red alert
 OK		10 million (large flashing, with borders)
-cut		red alert + 50M flashing ramps countdown
+OK?		red alert + 50M flashing ramps countdown
 cut		red alert 50M avarded
 		
 -		20 million, complete this ramp for red alert
@@ -267,7 +266,7 @@ cut		2x jackpot ready 80 million shoot left loop
 			
 Bonus stuff:
 
-
+OK?		"10 million" + alkuanim 	//where this comes from?
 			
 cut		loop combo x million startanim (skrollaa aina vasemmalta keskelle)
 cut		combo target = y million static 1/2
@@ -312,7 +311,7 @@ cut 	replay postanim
 
 
 Other:
-TODO	free play
+
 TODO	DANGER + TILT
 TODO	PLAYER x up
 OK		<score>
