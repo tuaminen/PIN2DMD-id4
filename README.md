@@ -1,94 +1,23 @@
-Testaa:
+Test these:
 -milton
--testaa enter inits timeout
-
-25 million anim
-
-
-
--Free play alku-ammus
-
-
-
-
-
-E50
-C102 / EA0 semi	085/DE3
-8B7
-
-
-
-after 10x bonus you get 50M bonus for completion
-50M => 25M
-
-x -bonus:
--onko 4x anim kokonaan tallennettu? muissa 34 framea. 
-6x anim puuttuu (pelkkä 1 frame)
-
- 
+-"enter initials" timeout
+-25 million anim
 
 POST match:
 -delete unused scenes
 
-
-
-
-leikkaa play2 loppuun
-
-
 NOTES:
--Replace-moodin ajoitus toimii paremmin animaatioissa?
+-Replace mode timing works better in animations?
 
 
-Testaus:
--Pin2dmd editor: File-> Export project (virt pin) to C:\Visual Pinball\VPinMAME\altcolor\id4
--Starttaa "C:\Visual Pinball\VPinball995.exe"
-
-NEXT:
--"Color conversion PT"
-
-attraction mode loppuun:
-	-TODO	in memory of donald
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--laita start "independence day" alkuun
-
-leikkaa multiball-flashing score jackpots erilleen
-
-leikkaa 1 more hit.. alien erikseen
-
-
-
-
--pilko red alert osiin
- * red alert countdown alkaa "red alert"-animaatiolla, jossa frame#6 (hash 3100F575) on sama kuin 
-
-
+-cut multiball-flashing score jackpots into separate part
+-cut '1 more hit..' alien to into separate part
+-cut red alert into parts
+ * red alert countdown begins with "red alert" animation, where frame#6 (hash 3100F575) is same as ..?
 
 Common design:
--4px reunus-teemat
--1px reunus-teemat
-
-
-
-
-
-
-
+-4px border theme
+-1px border theme
 -------------------------------------------------------------------------------
 
 Init mode:
@@ -119,7 +48,7 @@ OK	 	CREDITS x 1/2
 OK		digital sound system
 OK		enjoy this game
 OK		game over 					//KEYFRAME: change mode????
-OK? 	id4 credits					TUTKI TIMING
+OK? 	id4 credits					//CHECK TIMING
 OK		id4 logo
 OK		in memory of Milton feldman
 OK		insert coins
@@ -135,14 +64,12 @@ BUGS	trendmasters id4 toys available
 TODO	in memory of donald mcmillin
 TODO	free play
 
-tutki allaolevat
+CHECK these
 OK		<score>	
 
 ? 		CREDIT 1/2
 buggy	CREDIT x 
-TODO 	CREDIT x 1/2  onko tätä?
-
-
+TODO 	CREDIT x 1/2  //is this done?
 
 -------------------------------------------------------------------------------
 
@@ -173,7 +100,7 @@ OK	 	lock 2 lit (contains transient to score in the end!)
 OK		lock 2, timing issue
 OK		multiball ready
 OK		multiball (dogfight, "multiball")
-TODO 	1 more hit for lock lit (leikkaa alien alusta pois)
+TODO 	1 more hit for lock lit (cut 'alien' from the beginning)
 cut 	2 more hits for lock lit
 -	 	3 more hits for lock lit
 
@@ -205,7 +132,6 @@ Alien ships:
 OK		10 million ship anim (hit 3 alien ships right to alien head)
 
 
-
 Red alert:
 OK		5 million, complete ramps for red alert
 OK		5 million (large flashing, with borders)
@@ -234,9 +160,9 @@ OK		july 5
 OK		25 million
 
 Pop bumpers:
-OK		pop bumper score
+OK		pop bu
 
-
+mper score
 
 Extra ball related
 OK		extra ball (white house explodes)
@@ -268,21 +194,9 @@ Bonus stuff:
 
 OK?		"10 million" + alkuanim 	//where this comes from?
 			
-cut		loop combo x million startanim (skrollaa aina vasemmalta keskelle)
+cut		loop combo x million startanim (scrolls alway from the left to middle)
 cut		combo target = y million static 1/2
 cut		combo target = y million static 2/2
-
-
-			
-
-
-			
-
-			
-			
-
-
-			
 
 cut		jackpot ready 40 million shoot inside head
 cut		2x bonus
@@ -294,7 +208,7 @@ cut		ramp complete
 		5 million (alien on top of text) 2nd, any more??
 -		20 million (large flashing)
 -		50 million (large flashing)
-cut		left loop plane&alien
+cut		left loop plane & alien
 cut		left loop plane shoots alien
 
 cut 	multiball restart
@@ -304,10 +218,6 @@ cut 	replay (wh exposion) startanim
 cut 	replay static 1/2
 cut 	replay static 2/2
 cut 	replay postanim	
-
-
-
-
 
 
 Other:
@@ -332,7 +242,6 @@ OK?		shoot again
 OK		ball saved
 		
 		
-		
 "new stuff"	"ball added" +  ship right-to-eft
 		ball added -animation ('ball' 'added' texts vertically on the side)
 
@@ -340,18 +249,10 @@ TODO	combo / jackpot
 
 TODO 	ramp complete + left ramp
 
-
-
 50 million alien slime
 
 TODO	"special"
-
-
-
 TODO	5 million
-
-
-
 
 -------------------------------------------------------------------------------
 
@@ -359,7 +260,7 @@ POSTGAME
 OK		"enter initials"
 OK		fat lady sings
 OK		initials entry
-OK		match							colorize ending better
+OK		match							//colorize ending better
 
 -------------------------------------------------------------------------------
 
@@ -372,7 +273,7 @@ TRANSIENTS / transparency:
 f-18 hurry up grows -> rows -> bonus
 
 
-Credit 1 scrollaa alhaalta kun laittaa rahaa
+Credit 1 scrolls from bottom when money is inserted
 
 -during "area 51 multiball mini-loop", all animations fade out with "grow from center"
 
@@ -384,17 +285,19 @@ any -> grow from center -> total bonus XXXXXX
 -extra ball ball explosion -> scroll from left -> back to prev. displayed
 
 
-
 -------------------------------------------------------------------------------
 
 ISSUES:
 -alien frenzy total beginning anim cannot be detected from a single row on the bottom
 
-Q: onko 2x / 4x etc. bonukset aina "f-18 hurryup:n perään? ts. voiko ko. animaation aloittaa f-18:n lopputransientista? 
-A: ei
+Q: Is 2x / 4x etc. bonus always appear after "f-18 hurryup? So can you start anim  from f-18 ending transient?
+A: NO
 
 
+-------------------------------------------------------------------------------
 
+Environment note:
+-Pin2dmd editor: File-> Export project (virt pin) to C:\Visual Pinball\VPinMAME\altcolor\id4
+-Start "C:\Visual Pinball\VPinball995.exe"
 
-
-FINETUNING:
+--
