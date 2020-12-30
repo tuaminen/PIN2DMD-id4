@@ -1,33 +1,39 @@
-Test these:
+
+## Test these:
+```
 -milton
 -"enter initials" timeout
 -25 million anim
+```
 
-POST match:
--delete unused scenes
 
-NOTES:
+## NOTES
+```
 -Replace mode timing works better in animations?
+-common design: 4px border theme
+-common design: 1px border theme
+```
 
-
+## TODO
+```
 -cut multiball-flashing score jackpots into separate part
 -cut '1 more hit..' alien to into separate part
 -cut red alert into parts
  * red alert countdown begins with "red alert" animation, where frame#6 (hash 3100F575) is same as ..?
-
-Common design:
--4px border theme
--1px border theme
+```
 -------------------------------------------------------------------------------
 
-Init mode:
+## Init mode
+```
 OK		SEGA PINBALL ID4
 OK		checksum
 OK		location id
+```
 
 -------------------------------------------------------------------------------
 
-Attraction mode:
+## Attraction mode
+```
 OK		20th fox
 OK	 	BSMT 2000
 OK		add 1 coin for 1 credit
@@ -70,11 +76,12 @@ OK		<score>
 ? 		CREDIT 1/2
 buggy	CREDIT x 
 TODO 	CREDIT x 1/2  //is this done?
+```
 
 -------------------------------------------------------------------------------
 
-Game mode:
-
+## Game mode
+```
 Start:
 OK	start planet + "independence day"
 
@@ -253,18 +260,21 @@ TODO 	ramp complete + left ramp
 
 TODO	"special"
 TODO	5 million
-
+```
 -------------------------------------------------------------------------------
 
-POSTGAME
+## POSTGAME
+```
 OK		"enter initials"
 OK		fat lady sings
 OK		initials entry
 OK		match							//colorize ending better
-
+```
 -------------------------------------------------------------------------------
 
-TRANSIENTS / transparency:
+## TRANSIENTS / transparency:
+
+```
 -red alert total -> spin -> score
 -f-18 hurry up total -> spin -> score
 -lock 1 lit -> rows -> score
@@ -283,21 +293,22 @@ any -> grow from center -> total bonus XXXXXX
 -jackpot -> grow from center -> back to prev. displayed
 -replay -> grow from center -> back to prev. displayed
 -extra ball ball explosion -> scroll from left -> back to prev. displayed
-
+```
 
 -------------------------------------------------------------------------------
 
-ISSUES:
+## ISSUES:
+```
 -alien frenzy total beginning anim cannot be detected from a single row on the bottom
 
 Q: Is 2x / 4x etc. bonus always appear after "f-18 hurryup? So can you start anim  from f-18 ending transient?
 A: NO
-
+```
 
 -------------------------------------------------------------------------------
 
-Environment note:
+## Environment notes:
+```
 -Pin2dmd editor: File-> Export project (virt pin) to C:\Visual Pinball\VPinMAME\altcolor\id4
 -Start "C:\Visual Pinball\VPinball995.exe"
-
---
+```
